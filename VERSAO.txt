@@ -1,10 +1,3 @@
-Projeto Quintal Vivo — v1.3.1
-
-Correções principais:
-- Nova logo oficial aplicada no cabeçalho, hero, favicon, ícones PWA e imagem de compartilhamento.
-- Biblioteca Verde reestruturada para acervo real: livros reais, autores reais e capas carregadas por Open Library/Google Books quando disponíveis.
-- Inclusão de acesso à BibliON como biblioteca digital gratuita.
-- Remoção das capas falsas/geradas dos livros.
-- Remoção das ilustrações simples da seção de riscos, substituídas por ícones vetoriais profissionais e cards informativos.
-- Reescrita da seção de pets com apelo mais forte e útil.
-- Reescrita da seção de Paraúna com informações históricas e turísticas oficiais.
+Projeto Quintal Vivo GO
+Versão: 1.3.2.1
+Atualização: ícone oficial do site substituído pelo símbolo da nova marca.

@@ -89,3 +89,55 @@ body.dark .book-actions a{background:#103c28}
   .hero-card img{padding:8px}
   .pet-warning-icon,.risk-icon{width:58px;height:58px;border-radius:18px;font-size:1.65rem}
 }
+
+
+/* v1.3.2 — contraste, dados reais e acervo ampliado */
+:root{
+  --muted:#4f5f56;
+  --link:#0f8a4b;
+}
+body.dark{
+  --muted:#d2e7d8;
+  --ink:#f3fff7;
+  --line:#33724a;
+}
+.form-card label,
+.library-search label{color:var(--ink);opacity:1}
+body.dark .form-card label,
+body.dark .library-search label{color:#ecfff2}
+.form-card input::placeholder,
+.form-card textarea::placeholder,
+.library-search input::placeholder{color:#7f8b84;opacity:1}
+body.dark .form-card input::placeholder,
+body.dark .form-card textarea::placeholder,
+body.dark .library-search input::placeholder{color:#b6c9bd;opacity:1}
+.form-note,.library-note,.book-card p,.card p,.tour-card p,.source-card p,.risk-card p,.section-heading p{color:var(--muted)}
+body.dark .form-note,body.dark .library-note,body.dark .book-card p,body.dark .card p,body.dark .tour-card p,body.dark .source-card p,body.dark .risk-card p,body.dark .section-heading p{color:#d2e7d8}
+a:not(.btn):not(.brand):not(.nav a):not(.whatsapp-float){color:var(--link)}
+body.dark a:not(.btn):not(.brand):not(.nav a):not(.whatsapp-float){color:#5ee18f}
+
+.data-section{background:linear-gradient(180deg,#f7fbf3,#fff)}
+body.dark .data-section{background:#071f14}
+.stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.stat-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 16px 42px rgba(4,43,25,.09)}
+.stat-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:12px}
+.stat-top span{display:inline-flex;border-radius:999px;padding:7px 10px;background:var(--green-100);color:var(--green-800);font-size:.76rem;font-weight:950;text-transform:uppercase;letter-spacing:.08em}
+.stat-top strong{font-size:2.1rem;line-height:1;color:var(--green-700);letter-spacing:-.06em}
+.bar-track{height:13px;background:#d9eadf;border-radius:999px;overflow:hidden;margin:10px 0 18px;border:1px solid rgba(11,93,53,.12)}
+.bar-track span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--green-500),var(--green-700))}
+.stat-card h3{font-size:1.12rem;margin-bottom:8px}
+.stat-card p{font-size:.93rem;color:var(--muted)}
+.stat-card a{font-weight:950;text-decoration:none}
+.data-note{margin-top:22px;color:var(--muted);font-size:.95rem;text-align:center}
+body.dark .stat-card{background:#0d2f1e;color:#edfdf2}
+body.dark .bar-track{background:#123e28;border-color:#2f7148}
+body.dark .stat-top span{background:#103c28;color:#b8f6c8}
+body.dark .stat-top strong{color:#5ee18f}
+
+.filter[data-filter="mentalidade"]{border-color:#b7e6c6}
+.filter[data-filter="mentalidade"].active{background:linear-gradient(135deg,#0b5d35,#23b765)}
+.pet-warning p,.pet-warning .pet-callout{color:var(--ink)}
+body.dark .pet-warning p, body.dark .pet-warning .pet-callout{color:#ecfff2}
+
+@media (max-width:1120px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.stats-grid{grid-template-columns:1fr}.stat-card{padding:18px}.stat-top strong{font-size:1.8rem}}

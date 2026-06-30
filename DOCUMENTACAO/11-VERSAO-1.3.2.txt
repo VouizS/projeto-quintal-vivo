@@ -1,0 +1,7 @@
+v1.3.2 — Biblioteca ampliada, dados reais e correções de contraste
+
+1. Biblioteca Verde ampliada com categoria Mentalidade e obras reais sobre hábitos, organização, comportamento, cuidado e psicologia aplicada.
+2. Nova seção Dados reais para orientar a cidade, com gráficos em barras baseados em percentuais publicados por fontes externas.
+3. Links instáveis substituídos por páginas mais acessíveis quando possível.
+4. Contraste melhorado no modo escuro para labels, parágrafos, placeholders, cards, filtros e links.
+5. Uso de imagens: capas por APIs/acervos e sem copiar imagens protegidas de bancos comerciais.

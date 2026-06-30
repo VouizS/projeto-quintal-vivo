@@ -1,0 +1,5 @@
+VERSÃO 1.3.2.1 - ÍCONE OFICIAL
+
+- Substitui favicon, ícones PWA, apple-touch-icon e símbolo do cabeçalho.
+- Usa o símbolo recortado da nova marca Projeto Quintal Vivo.
+- Adiciona cache-busting nos links de ícone para reduzir problema de cache no navegador.

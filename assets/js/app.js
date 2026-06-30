@@ -308,6 +308,95 @@ const libraryItems = [
     link:'https://openlibrary.org/search?q=The+Power+of+Habit+Charles+Duhigg',
     coverQuery:'The Power of Habit Charles Duhigg'
   },
+
+  {
+    title:'Hábitos Atômicos',
+    author:'James Clear',
+    year:'2018',
+    cat:['mentalidade','organizacao','livros'],
+    status:'Livro',
+    type:'Hábitos e rotina',
+    summary:'Obra sobre formação de hábitos, melhoria contínua e mudança de comportamento. Útil para transformar limpeza, descarte correto e cuidado em rotina.',
+    link:'https://openlibrary.org/search?q=Atomic+Habits+James+Clear',
+    coverQuery:'Atomic Habits James Clear'
+  },
+  {
+    title:'Mindset',
+    author:'Carol S. Dweck',
+    year:'2006',
+    cat:['mentalidade','livros'],
+    status:'Livro',
+    type:'Psicologia e comportamento',
+    summary:'Livro de psicologia sobre mentalidade fixa e mentalidade de crescimento, útil para falar de mudança de atitude e responsabilidade pessoal.',
+    link:'https://openlibrary.org/search?q=Mindset+Carol+Dweck',
+    coverQuery:'Mindset Carol Dweck'
+  },
+  {
+    title:'Rápido e Devagar',
+    author:'Daniel Kahneman',
+    year:'2011',
+    cat:['mentalidade','livros'],
+    status:'Livro',
+    type:'Psicologia da decisão',
+    summary:'Clássico sobre julgamento e tomada de decisão. Ajuda a entender por que pessoas adiam tarefas importantes como limpeza, prevenção e organização.',
+    link:'https://openlibrary.org/search?q=Thinking+Fast+and+Slow+Daniel+Kahneman',
+    coverQuery:'Thinking Fast and Slow Daniel Kahneman'
+  },
+  {
+    title:'Nudge',
+    author:'Richard H. Thaler e Cass R. Sunstein',
+    year:'2008',
+    cat:['mentalidade','cidade','livros'],
+    status:'Livro',
+    type:'Comportamento e políticas públicas',
+    summary:'Mostra como pequenas mudanças no ambiente podem influenciar escolhas melhores, conceito útil para campanhas de limpeza, descarte e prevenção.',
+    link:'https://openlibrary.org/search?q=Nudge+Thaler+Sunstein',
+    coverQuery:'Nudge Richard Thaler Cass Sunstein'
+  },
+  {
+    title:'A Mente Organizada',
+    author:'Daniel J. Levitin',
+    year:'2014',
+    cat:['mentalidade','organizacao','livros'],
+    status:'Livro',
+    type:'Organização e cérebro',
+    summary:'Livro sobre atenção, excesso de informação e organização mental, conectado ao cuidado com espaços físicos e decisões do dia a dia.',
+    link:'https://openlibrary.org/search?q=The+Organized+Mind+Daniel+Levitin',
+    coverQuery:'The Organized Mind Daniel Levitin'
+  },
+  {
+    title:'Essencialismo',
+    author:'Greg McKeown',
+    year:'2014',
+    cat:['mentalidade','organizacao','livros'],
+    status:'Livro',
+    type:'Prioridade e foco',
+    summary:'Obra sobre simplificar escolhas e priorizar o essencial. Ajuda a conectar organização com menos acúmulo e mais clareza.',
+    link:'https://openlibrary.org/search?q=Essentialism+Greg+McKeown',
+    coverQuery:'Essentialism Greg McKeown'
+  },
+  {
+    title:'Gatilhos',
+    author:'Marshall Goldsmith e Mark Reiter',
+    year:'2015',
+    cat:['mentalidade','livros'],
+    status:'Livro',
+    type:'Mudança de comportamento',
+    summary:'Explica como ambientes e estímulos influenciam atitudes, útil para campanhas que incentivam limpeza, zelo e ação comunitária.',
+    link:'https://openlibrary.org/search?q=Triggers+Marshall+Goldsmith',
+    coverQuery:'Triggers Marshall Goldsmith Mark Reiter'
+  },
+  {
+    title:'A Coragem de Ser Imperfeito',
+    author:'Brené Brown',
+    year:'2012',
+    cat:['mentalidade','livros'],
+    status:'Livro',
+    type:'Responsabilidade e vergonha',
+    summary:'Ajuda a trabalhar linguagem de cuidado sem humilhar: o objetivo é responsabilidade, não exposição da pessoa ou do proprietário.',
+    link:'https://openlibrary.org/search?q=Daring+Greatly+Brene+Brown',
+    coverQuery:'Daring Greatly Brene Brown'
+  },
   {
     title:'Cradle to Cradle',
     author:'William McDonough e Michael Braungart',
@@ -349,7 +438,7 @@ const libraryItems = [
     status:'Gratuito',
     type:'PDF oficial',
     summary:'Material técnico sobre prevenção, manejo e orientação para controle de escorpiões.',
-    link:'https://bvsms.saude.gov.br/bvs/publicacoes/manual_controle_escorpioes.pdf',
+    link:'https://www.gov.br/saude/pt-br/assuntos/saude-com-ciencia/noticias/2024/setembro/esclarecimentos-e-cuidados-sobre-acidentes-com-escorpioes',
     kind:'official'
   },
   {
@@ -360,7 +449,7 @@ const libraryItems = [
     status:'Gratuito',
     type:'PDF oficial',
     summary:'Guia técnico sobre prevenção e controle de roedores, relevante para lixo e saneamento.',
-    link:'https://bvsms.saude.gov.br/bvs/publicacoes/manual_roedores1.pdf',
+    link:'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose/prevencao',
     kind:'official'
   },
   {
@@ -453,7 +542,7 @@ function setupLibrary(){
       </div>`;
 
     const alt = item.altLink ? `<a class="secondary-link" href="${item.altLink}" target="_blank" rel="noopener">Acessar acervo ↗</a>` : '';
-    const mainLabel = item.kind === 'official' ? 'Ver material oficial' : item.kind === 'library' ? 'Entrar na biblioteca' : 'Ver livro / acervo';
+    const mainLabel = item.kind === 'official' ? 'Abrir fonte oficial' : item.kind === 'library' ? 'Entrar na biblioteca' : 'Ver livro / acervo';
 
     return `<article class="book-card ${isBook ? 'has-real-cover' : 'has-official-cover'}" data-cat="${escapeHtml(item.cat.join(' '))}">
       ${cover}
