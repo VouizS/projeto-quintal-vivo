@@ -1,0 +1,16 @@
+COMANDOS UTEIS
+
+Atualizar Termux:
+pkg update && pkg upgrade
+
+Instalar ferramentas:
+pkg install git nano zip unzip python
+
+Testar site localmente:
+./scripts/servidor-local.sh
+
+Criar backup:
+./scripts/backup.sh
+
+Publicar no GitHub/Netlify:
+./scripts/publicar.sh "Atualização do site"

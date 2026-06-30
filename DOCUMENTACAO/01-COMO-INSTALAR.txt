@@ -1,0 +1,12 @@
+COMO INSTALAR NO TERMUX
+
+1. Abra o Termux.
+2. Entre na pasta do projeto.
+3. Rode:
+
+chmod +x scripts/*.sh
+./scripts/instalar.sh
+
+Se já tiver git, nano, zip, unzip e python instalados, pode pular a instalação e testar direto:
+
+./scripts/servidor-local.sh

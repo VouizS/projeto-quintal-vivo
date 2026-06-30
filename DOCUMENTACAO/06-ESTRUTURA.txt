@@ -1,0 +1,18 @@
+ESTRUTURA OFICIAL V1.1
+
+index.html
+obrigado.html
+netlify.toml
+assets/
+  css/
+    style.css
+  js/
+    app.js
+  img/
+  icons/
+scripts/
+  instalar.sh
+  servidor-local.sh
+  publicar.sh
+  backup.sh
+DOCUMENTACAO/

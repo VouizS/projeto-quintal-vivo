@@ -1,0 +1,12 @@
+Quintal Vivo GO v1.1
+Data: 2026-06-30
+
+Status: correção estrutural e base profissional.
+
+Arquivos principais corrigidos:
+- index.html
+- assets/css/style.css
+- assets/js/app.js
+- obrigado.html
+- netlify.toml
+- scripts/*.sh

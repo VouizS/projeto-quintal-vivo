@@ -1,0 +1,18 @@
+NETLIFY
+
+Este projeto inclui netlify.toml com publish = ".".
+
+Para deploy automático:
+1. Suba a pasta do projeto para um repositório GitHub.
+2. Conecte o repositório na Netlify.
+3. Configure a branch principal como main.
+4. A cada git push, a Netlify publica o site.
+
+Formulário:
+O formulário do index.html usa Netlify Forms:
+- name="contato-quintal-vivo"
+- method="POST"
+- data-netlify="true"
+- action="/obrigado.html"
+
+Depois do primeiro deploy, confira na Netlify se o formulário foi detectado.

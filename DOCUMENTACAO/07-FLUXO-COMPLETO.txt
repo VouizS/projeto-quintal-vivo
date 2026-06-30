@@ -1,0 +1,14 @@
+FLUXO COMPLETO
+
+1. Editar arquivos no Termux/Nano.
+2. Testar localmente:
+   ./scripts/servidor-local.sh
+3. Conferir no navegador:
+   http://127.0.0.1:8080
+4. Criar backup:
+   ./scripts/backup.sh
+5. Publicar:
+   ./scripts/publicar.sh "Mensagem do commit"
+6. GitHub recebe os arquivos.
+7. Netlify detecta a atualização e faz novo deploy.
+8. Site fica atualizado online.

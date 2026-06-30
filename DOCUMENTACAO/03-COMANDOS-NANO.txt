@@ -1,0 +1,20 @@
+COMANDOS NANO
+
+Abrir arquivo:
+nano index.html
+
+Salvar:
+CTRL + O
+ENTER
+
+Sair:
+CTRL + X
+
+Buscar texto:
+CTRL + W
+
+Cortar linha:
+CTRL + K
+
+Colar linha:
+CTRL + U

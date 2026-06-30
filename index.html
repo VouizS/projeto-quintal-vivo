@@ -1,611 +1,288 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projeto Quintal Vivo GO: limpeza de terrenos, prevenção contra dengue, educação ambiental e cuidado com espaços urbanos.">
+  <meta name="theme-color" content="#14532d">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projeto Quintal Vivo GO | Limpeza de Terrenos e Combate à Dengue</title>
 
-<title>Projeto Quintal Vivo</title>
-
-<meta name="description" content="Portal de conscientização ambiental, saúde pública e combate à dengue.">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
-
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-<link rel="stylesheet" href="assets/css/style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<body id="inicio">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-navbar" aria-label="Menu principal">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio" aria-label="Voltar para o início">
+        <span class="brand-mark">QV</span>
+        <span>Quintal Vivo GO</span>
+      </a>
 
-<body>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-opacity-75">
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#dengue">Dengue</a></li>
+          <li class="nav-item"><a class="nav-link" href="#natureza">Natureza</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<div class="container">
+  <header class="hero">
+    <div class="container hero-content text-center" data-aos="fade-up">
+      <span class="badge rounded-pill text-bg-success hero-badge">Limpeza • Saúde • Natureza</span>
+      <h1>Projeto Quintal Vivo GO</h1>
+      <p class="hero-subtitle">Transformando terrenos e quintais abandonados em espaços mais limpos, seguros e saudáveis.</p>
+      <p class="hero-text">Serviço de limpeza com foco em prevenção contra dengue, descarte consciente e valorização do ambiente urbano.</p>
 
-<a class="navbar-brand fw-bold" href="#">
-🌿 Projeto Quintal Vivo
-</a>
+      <div class="hero-actions">
+        <a href="#contato" class="btn btn-success btn-lg">Solicitar orçamento</a>
+        <a href="#servicos" class="btn btn-outline-light btn-lg">Ver serviços</a>
+      </div>
+    </div>
+  </header>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+  <main>
+    <section class="section section-light" id="servicos">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <span class="eyebrow">O que fazemos</span>
+          <h2>Nossos serviços</h2>
+          <p>Atuação prática para deixar terrenos, quintais e áreas externas mais seguros para moradores e vizinhos.</p>
+        </div>
 
-<span class="navbar-toggler-icon"></span>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+            <article class="service-card h-100">
+              <i class="bi bi-tree-fill service-icon text-success" aria-hidden="true"></i>
+              <h3>Limpeza de terrenos</h3>
+              <p>Remoção de mato alto, galhos, folhas, entulho leve e resíduos que deixam a área abandonada ou insegura.</p>
+            </article>
+          </div>
 
-</button>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="service-card h-100">
+              <i class="bi bi-bug-fill service-icon text-danger" aria-hidden="true"></i>
+              <h3>Prevenção contra dengue</h3>
+              <p>Identificação visual de pontos críticos, orientação preventiva e redução de locais que podem acumular água parada.</p>
+            </article>
+          </div>
 
-<div class="collapse navbar-collapse" id="menu">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+            <article class="service-card h-100">
+              <i class="bi bi-house-heart-fill service-icon text-primary" aria-hidden="true"></i>
+              <h3>Cuidado com quintais</h3>
+              <p>Organização de áreas externas para melhorar circulação, aparência, segurança e qualidade de vida no imóvel.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<ul class="navbar-nav ms-auto">
+    <section class="section section-danger-soft" id="dengue">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5" data-aos="fade-right">
+            <span class="eyebrow danger">Combate à dengue</span>
+            <h2>Terreno sujo pode virar risco para toda a vizinhança</h2>
+            <p class="lead">Mato alto, lixo espalhado, pneus, garrafas, lonas e recipientes esquecidos podem facilitar focos do mosquito.</p>
+            <a href="#contato" class="btn btn-danger btn-lg">Quero prevenir riscos</a>
+          </div>
 
-<li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="info-card h-100">
+                  <i class="bi bi-droplet-half text-danger" aria-hidden="true"></i>
+                  <h3>Água parada</h3>
+                  <p>Verifique vasos, garrafas, calhas, pneus, caixas d'água e qualquer recipiente que acumule água.</p>
+                </div>
+              </div>
 
-<li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+              <div class="col-md-6">
+                <div class="info-card h-100">
+                  <i class="bi bi-shield-check text-success" aria-hidden="true"></i>
+                  <h3>Ambiente protegido</h3>
+                  <p>Manter o quintal limpo reduz abrigo para insetos, animais indesejados e pontos de descarte irregular.</p>
+                </div>
+              </div>
 
-<li class="nav-item"><a class="nav-link" href="#">Dengue</a></li>
+              <div class="col-12">
+                <div class="alert alert-warning mb-0">
+                  <strong>Atenção:</strong> febre alta, dor no corpo, manchas vermelhas e dor atrás dos olhos podem ser sintomas de dengue. Procure atendimento médico.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<li class="nav-item"><a class="nav-link" href="#">Natureza</a></li>
+    <section class="section section-nature" id="natureza">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <span class="eyebrow">Meio ambiente</span>
+          <h2>Preservar hoje é garantir um amanhã melhor</h2>
+          <p>O Quintal Vivo GO une serviço, conscientização e cuidado com o bairro.</p>
+        </div>
 
-<li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
+            <article class="nature-card h-100">
+              <i class="bi bi-recycle" aria-hidden="true"></i>
+              <h3>Descarte consciente</h3>
+              <p>Separar e destinar resíduos corretamente evita poluição e melhora a organização do espaço.</p>
+            </article>
+          </div>
 
-</ul>
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <article class="nature-card h-100">
+              <i class="bi bi-flower1" aria-hidden="true"></i>
+              <h3>Áreas mais verdes</h3>
+              <p>Um quintal limpo abre caminho para jardins, hortas, árvores e espaços mais agradáveis.</p>
+            </article>
+          </div>
 
-</div>
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+            <article class="nature-card h-100">
+              <i class="bi bi-people-fill" aria-hidden="true"></i>
+              <h3>Comunidade saudável</h3>
+              <p>Quando uma área é cuidada, a rua inteira ganha mais segurança, beleza e qualidade de vida.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <section class="section section-light" id="galeria">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <span class="eyebrow">Galeria</span>
+          <h2>Ideias de transformação</h2>
+          <p>Referências visuais para comunicar limpeza, natureza e cuidado ambiental.</p>
+        </div>
 
-</nav>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+            <article class="gallery-card">
+              <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80" alt="Plantas verdes representando cuidado ambiental">
+              <div>
+                <h3>Educação ambiental</h3>
+                <p>Conscientização para manter espaços limpos.</p>
+              </div>
+            </article>
+          </div>
 
-<header class="hero">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="gallery-card">
+              <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=900&q=80" alt="Área verde preservada ao pôr do sol">
+              <div>
+                <h3>Natureza urbana</h3>
+                <p>Mais verde, menos abandono.</p>
+              </div>
+            </article>
+          </div>
 
-<div class="container text-center">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+            <article class="gallery-card">
+              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80" alt="Trilha em área arborizada limpa">
+              <div>
+                <h3>Espaços limpos</h3>
+                <p>Ambientes mais seguros para todos.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<span class="badge bg-success mb-3 fs-6">
-Portal de Educação Ambiental
-</span>
+    <section class="section section-contact" id="contato">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="contact-panel" data-aos="fade-up">
+              <div class="section-heading text-center mb-4">
+                <span class="eyebrow">Fale conosco</span>
+                <h2>Solicite avaliação ou envie uma denúncia ambiental</h2>
+                <p>Use o formulário para enviar nome, contato, endereço aproximado e descrição do terreno ou quintal.</p>
+              </div>
 
-<h1 class="display-3 fw-bold">
-Projeto Quintal Vivo
-</h1>
+              <form name="contato-quintal-vivo" method="POST" action="/obrigado.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+                <input type="hidden" name="form-name" value="contato-quintal-vivo">
+                <p class="visually-hidden">
+                  <label>Não preencha este campo: <input name="bot-field"></label>
+                </p>
 
-<h2 class="fs-2 fw-light mt-3">
-Transformando terrenos em espaços seguros.
-</h2>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input class="form-control" id="nome" name="nome" type="text" placeholder="Seu nome" required>
+                  </div>
 
-<p class="lead mt-4">
-Educação ambiental • Saúde pública • Combate à dengue • Preservação da natureza
-</p>
+                  <div class="col-md-6">
+                    <label class="form-label" for="contatoPessoa">Contato</label>
+                    <input class="form-control" id="contatoPessoa" name="contato" type="text" placeholder="Telefone, WhatsApp ou e-mail" required>
+                  </div>
 
-<a href="#" class="btn btn-success btn-lg px-5 mt-3">
-Conheça o Projeto
-</a>
+                  <div class="col-md-6">
+                    <label class="form-label" for="assunto">Assunto</label>
+                    <select class="form-select" id="assunto" name="assunto" required>
+                      <option value="">Escolha uma opção</option>
+                      <option>Solicitar limpeza de terreno</option>
+                      <option>Limpeza de quintal</option>
+                      <option>Prevenção contra dengue</option>
+                      <option>Denúncia de terreno abandonado</option>
+                      <option>Outra solicitação</option>
+                    </select>
+                  </div>
 
-</div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="localizacao">Localização aproximada</label>
+                    <input class="form-control" id="localizacao" name="localizacao" type="text" placeholder="Bairro, rua ou ponto de referência">
+                  </div>
 
-</header>
+                  <div class="col-12">
+                    <label class="form-label" for="mensagem">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Descreva o terreno, o tipo de limpeza e o melhor horário para retorno." required></textarea>
+                  </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+                  <div class="col-12 text-center mt-4">
+                    <button class="btn btn-success btn-lg px-5" type="submit">Enviar solicitação</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <footer class="site-footer">
+    <div class="container text-center">
+      <h2>Quintal Vivo GO</h2>
+      <p>Limpeza de terrenos • Saúde pública • Prevenção contra dengue • Meio ambiente</p>
+      <a href="#inicio" class="footer-link">Voltar ao início</a>
+      <hr>
+      <p class="mb-0">© <span id="anoAtual">2026</span> Projeto Quintal Vivo GO. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
-<script>
-AOS.init();
-</script>
-
-<script src="assets/js/app.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
-
-<section id="servicos" class="py-5 bg-light text-dark">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2 class="fw-bold">Nossos Serviços</h2>
-
-<p class="text-muted">
-Conheça as principais ações desenvolvidas pelo Projeto Quintal Vivo.
-</p>
-
-</div>
-
-<div class="row g-4">
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow">
-
-<div class="card-body text-center">
-
-<i class="bi bi-tree-fill display-4 text-success"></i>
-
-<h4 class="mt-3">
-Limpeza de Terrenos
-</h4>
-
-<p>
-Remoção de mato alto, lixo e resíduos para manter áreas limpas e seguras.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow">
-
-<div class="card-body text-center">
-
-<i class="bi bi-bug-fill display-4 text-danger"></i>
-
-<h4 class="mt-3">
-Combate à Dengue
-</h4>
-
-<p>
-Eliminação de criadouros do mosquito e ações de conscientização.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow">
-
-<div class="card-body text-center">
-
-<i class="bi bi-heart-pulse-fill display-4 text-primary"></i>
-
-<h4 class="mt-3">
-Saúde Pública
-</h4>
-
-<p>
-Promovemos ambientes mais saudáveis para toda a comunidade.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- DENGUE -->
-<section id="dengue" class="py-5 bg-light">
-
-<div class="container">
-
-<div class="row justify-content-center">
-
-<div class="col-lg-10">
-
-<div class="text-center mb-5">
-
-<span class="badge bg-danger mb-3">
-Combate à Dengue
-</span>
-
-<h2 class="fw-bold">
-Prevenção salva vidas
-</h2>
-
-<p class="lead text-muted">
-Eliminar água parada é a forma mais eficiente de combater o mosquito Aedes aegypti.
-</p>
-
-</div>
-
-<div class="row g-4">
-
-<div class="col-md-6">
-
-<div class="card border-0 shadow-sm h-100">
-
-<div class="card-body">
-
-<h4 class="text-danger">
-<i class="bi bi-droplet-fill"></i>
- Evite água parada
-</h4>
-
-<p>
-Verifique vasos de plantas, pneus, garrafas, calhas, caixas d'água e qualquer recipiente que possa acumular água.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-6">
-
-<div class="card border-0 shadow-sm h-100">
-
-<div class="card-body">
-
-<h4 class="text-success">
-<i class="bi bi-shield-check"></i>
- Proteja sua família
-</h4>
-
-<p>
-Mantenha o quintal limpo, descarte corretamente o lixo e participe das campanhas de conscientização.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="alert alert-warning mt-5">
-
-<strong>Atenção:</strong>
-
-Febre alta, dor no corpo, manchas vermelhas e dor atrás dos olhos podem ser sintomas de dengue. Procure atendimento médico.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- NATUREZA -->
-<section id="natureza" class="py-5">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<span class="badge bg-success mb-3">
-Meio Ambiente
-</span>
-
-<h2 class="fw-bold">
-Preservar hoje é garantir o amanhã
-</h2>
-
-<p class="lead text-muted">
-Cada pequena atitude ajuda na construção de uma cidade mais verde e saudável.
-</p>
-
-</div>
-
-<div class="row g-4">
-
-<div class="col-md-4">
-
-<div class="card border-0 shadow h-100">
-
-<div class="card-body text-center">
-
-<i class="bi bi-tree-fill display-4 text-success"></i>
-
-<h4 class="mt-3">
-Árvores
-</h4>
-
-<p>
-Plantar árvores melhora a qualidade do ar, reduz o calor e aumenta a biodiversidade.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card border-0 shadow h-100">
-
-<div class="card-body text-center">
-
-<i class="bi bi-recycle display-4 text-primary"></i>
-
-<h4 class="mt-3">
-Reciclagem
-</h4>
-
-<p>
-Separar corretamente os resíduos reduz a poluição e preserva os recursos naturais.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card border-0 shadow h-100">
-
-<div class="card-body text-center">
-
-<i class="bi bi-water display-4 text-info"></i>
-
-<h4 class="mt-3">
-Água
-</h4>
-
-<p>
-Evite desperdícios e mantenha rios, nascentes e córregos livres de lixo.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="text-center mt-5">
-
-<a href="#" class="btn btn-success btn-lg">
-Quero contribuir
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="galeria" class="py-5 bg-white">
-<div class="container">
-
-<div class="text-center mb-5">
-<h2 class="fw-bold">Galeria</h2>
-<p class="text-muted">
-Ações ambientais, limpeza de terrenos e preservação da natureza.
-</p>
-</div>
-
-<div class="row g-4">
-
-<div class="col-md-4">
-<div class="card shadow-sm border-0 h-100">
-<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80" class="card-img-top">
-<div class="card-body">
-<h5>Educação Ambiental</h5>
-<p class="text-muted">
-Conscientização da comunidade.
-</p>
-</div>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="card shadow-sm border-0 h-100">
-<img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80" class="card-img-top">
-<div class="card-body">
-<h5>Natureza</h5>
-<p class="text-muted">
-Preservação de áreas verdes.
-</p>
-</div>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="card shadow-sm border-0 h-100">
-<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" class="card-img-top">
-<div class="card-body">
-<h5>Terrenos Limpos</h5>
-<p class="text-muted">
-Mais saúde para toda população.
-</p>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-</section>
-
-
-<section id="contato" class="py-5 bg-light">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<span class="badge bg-success mb-3">
-Fale Conosco
-</span>
-
-<h2 class="fw-bold">
-Entre em Contato
-</h2>
-
-<p class="text-muted">
-Sugestões, denúncias e informações sobre terrenos abandonados.
-</p>
-
-</div>
-
-<div class="row justify-content-center">
-
-<div class="col-lg-8">
-
-<form class="card shadow border-0">
-
-<div class="card-body p-4">
-
-<div class="mb-3">
-
-<label class="form-label">
-Nome
-</label>
-
-<input
-type="text"
-class="form-control"
-placeholder="Seu nome">
-
-</div>
-
-<div class="mb-3">
-
-<label class="form-label">
-E-mail
-</label>
-
-<input
-type="email"
-class="form-control"
-placeholder="seu@email.com">
-
-</div>
-
-<div class="mb-3">
-
-<label class="form-label">
-Assunto
-</label>
-
-<input
-type="text"
-class="form-control"
-placeholder="Digite o assunto">
-
-</div>
-
-<div class="mb-3">
-
-<label class="form-label">
-Mensagem
-</label>
-
-<textarea
-class="form-control"
-rows="6"
-placeholder="Digite sua mensagem"></textarea>
-
-</div>
-
-<div class="text-center">
-
-<button
-class="btn btn-success btn-lg px-5"
-type="submit">
-
-Enviar Mensagem
-
-</button>
-
-</div>
-
-</div>
-
-</form>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<footer class="bg-dark text-white py-5">
-
-<div class="container text-center">
-
-<h3 class="fw-bold">
-
-🌿 Projeto Quintal Vivo
-
-</h3>
-
-<p class="mt-3">
-
-Educação Ambiental • Saúde Pública • Preservação da Natureza
-
-</p>
-
-<div class="mt-4">
-
-<a href="#" class="text-white me-3">
-<i class="bi bi-facebook fs-4"></i>
-</a>
-
-<a href="#" class="text-white me-3">
-<i class="bi bi-instagram fs-4"></i>
-</a>
-
-<a href="#" class="text-white">
-<i class="bi bi-envelope-fill fs-4"></i>
-</a>
-
-</div>
-
-<hr class="my-4">
-
-<p class="mb-0">
-
-© 2026 Projeto Quintal Vivo.
-Todos os direitos reservados.
-
-</p>
-
-</div>
-
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-<script>
-
-AOS.init({
-
-duration:900,
-once:true
-
-});
-
-</script>
-
-<script src="assets/js/app.js"></script>
-
-</body>
-
-</html>
-

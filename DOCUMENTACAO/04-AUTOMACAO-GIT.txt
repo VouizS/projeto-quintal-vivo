@@ -1,0 +1,14 @@
+AUTOMACAO GIT
+
+O script scripts/publicar.sh automatiza:
+
+git status
+git add .
+git commit -m "mensagem"
+git push origin main
+
+Uso:
+
+./scripts/publicar.sh "Corrige estrutura do site"
+
+Depois do push, a Netlify publica automaticamente se o site estiver conectado ao repositório GitHub.
