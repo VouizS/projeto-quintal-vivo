@@ -1,2 +1,10 @@
-Projeto Quintal Vivo GO — v1.3
-Atualização: biblioteca verde ampliada, alerta de lote sujo, Instagram, mapa de Paraúna, turismo local, seção de pets, vídeos educativos, fontes oficiais, modo escuro e ajustes visuais.
+Projeto Quintal Vivo — v1.3.1
+
+Correções principais:
+- Nova logo oficial aplicada no cabeçalho, hero, favicon, ícones PWA e imagem de compartilhamento.
+- Biblioteca Verde reestruturada para acervo real: livros reais, autores reais e capas carregadas por Open Library/Google Books quando disponíveis.
+- Inclusão de acesso à BibliON como biblioteca digital gratuita.
+- Remoção das capas falsas/geradas dos livros.
+- Remoção das ilustrações simples da seção de riscos, substituídas por ícones vetoriais profissionais e cards informativos.
+- Reescrita da seção de pets com apelo mais forte e útil.
+- Reescrita da seção de Paraúna com informações históricas e turísticas oficiais.

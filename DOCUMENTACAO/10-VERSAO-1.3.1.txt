@@ -1,0 +1,28 @@
+VERSÃO 1.3.1 — Identidade real e Biblioteca Verde real
+
+Esta atualização corrige pontos críticos da v1.3:
+
+1. Logo oficial
+A nova marca Projeto Quintal Vivo foi aplicada como:
+- imagem principal do hero;
+- símbolo no cabeçalho;
+- favicon;
+- ícones de instalação/PWA;
+- imagem de compartilhamento.
+
+2. Biblioteca Verde real
+A biblioteca foi reorganizada para usar livros reais, autores reais e informações reais.
+As capas dos livros são carregadas no navegador a partir de APIs públicas:
+- Open Library Search/Covers API;
+- Google Books API.
+
+3. BibliON
+Foi adicionado acesso direto à BibliON como biblioteca digital gratuita.
+
+4. Riscos e pets
+As ilustrações simples foram removidas da seção de riscos.
+Os cards agora usam ícones profissionais e texto mais direto.
+A seção de pets foi reescrita para explicar riscos reais: escorpiões, roedores, cortes e contaminação.
+
+5. Paraúna
+A seção de Paraúna agora usa informações mais específicas da história oficial e dos pontos turísticos listados pela Prefeitura.
