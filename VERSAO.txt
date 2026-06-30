@@ -1,12 +1,12 @@
-Quintal Vivo GO v1.1
-Data: 2026-06-30
+Quintal Vivo GO - v1.2
 
-Status: correção estrutural e base profissional.
+Atualização focada em identidade visual, WhatsApp e conscientização ambiental.
 
-Arquivos principais corrigidos:
-- index.html
-- assets/css/style.css
-- assets/js/app.js
-- obrigado.html
-- netlify.toml
-- scripts/*.sh
+Novidades:
+- Logo oficial em SVG e PNG.
+- Favicon, ícones PWA e imagem social og:image.
+- Redirecionamento /whatsapp e /zap para o número (64) 99907-5881.
+- Conteúdo ampliado sobre dengue, resíduos, meio ambiente e cuidado coletivo.
+- Cards com fontes oficiais do Ministério da Saúde, SES-GO, Semad Goiás, Prefeitura de Paraúna e Câmara de Goiânia.
+- Cards de reportagens reais com links externos.
+- Formulário que monta mensagem automática para WhatsApp.

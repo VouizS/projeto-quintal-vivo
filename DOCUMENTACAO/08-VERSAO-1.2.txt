@@ -1,0 +1,19 @@
+# Quintal Vivo GO v1.2
+
+Objetivo desta versão:
+Reposicionar o site como serviço de limpeza + conscientização ambiental e saúde pública.
+
+Alterações principais:
+1. Logo adicionada em assets/img/logo-quintal-vivo.svg.
+2. Ícones adicionados em assets/icons/.
+3. Favicon configurado no index.html.
+4. WhatsApp configurado para o número (64) 99907-5881.
+5. Rota /whatsapp e /zap adicionadas no netlify.toml.
+6. Conteúdo de conscientização incluído na home.
+7. Links externos reais adicionados para fontes oficiais e reportagens.
+
+Link WhatsApp usado:
+https://wa.me/5564999075881?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Quintal%20Vivo%20GO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20limpeza/cuidado%20de%20lote%20ou%20quintal%20em%20Para%C3%BAna/GO.
+
+Comando para publicar:
+./scripts/publicar.sh "Atualização v1.2 - logo, WhatsApp e conscientização"

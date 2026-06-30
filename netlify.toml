@@ -1,10 +1,21 @@
 [build]
   publish = "."
-  command = ""
+
+[[redirects]]
+  from = "/whatsapp"
+  to = "https://wa.me/5564999075881?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Quintal%20Vivo%20GO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20limpeza/cuidado%20de%20lote%20ou%20quintal%20em%20Para%C3%BAna/GO."
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/zap"
+  to = "https://wa.me/5564999075881?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Quintal%20Vivo%20GO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20limpeza/cuidado%20de%20lote%20ou%20quintal%20em%20Para%C3%BAna/GO."
+  status = 302
+  force = true
 
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
+    X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"

@@ -1,47 +1,51 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Projeto Quintal Vivo GO iniciado.');
-
   if (window.AOS) {
-    AOS.init({
-      duration: 850,
-      once: true,
-      offset: 80
-    });
+    AOS.init({ duration: 650, once: true, offset: 80 });
   }
 
-  const anoAtual = document.querySelector('#anoAtual');
-  if (anoAtual) {
-    anoAtual.textContent = new Date().getFullYear();
-  }
+  const ano = document.getElementById('ano');
+  if (ano) ano.textContent = new Date().getFullYear();
 
-  const menu = document.querySelector('#menu');
-  const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
-
-  navLinks.forEach((link) => {
+  const menu = document.getElementById('menu');
+  const navLinks = document.querySelectorAll('.navbar .nav-link[href^="#"]');
+  navLinks.forEach(link => {
     link.addEventListener('click', () => {
-      if (!menu || !menu.classList.contains('show') || !window.bootstrap) return;
-      const collapse = bootstrap.Collapse.getOrCreateInstance(menu);
-      collapse.hide();
+      if (menu && menu.classList.contains('show')) {
+        bootstrap.Collapse.getOrCreateInstance(menu).hide();
+      }
     });
   });
 
-  const sections = document.querySelectorAll('header[id], section[id]');
-
-  if ('IntersectionObserver' in window && sections.length > 0) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-
-        const id = entry.target.getAttribute('id');
-        navLinks.forEach((link) => {
-          link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
-        });
-      });
-    }, {
-      rootMargin: '-45% 0px -50% 0px',
-      threshold: 0
+  const sections = [...document.querySelectorAll('main section[id], body > header[id]')];
+  const onScroll = () => {
+    const y = window.scrollY + 120;
+    let active = 'inicio';
+    document.querySelectorAll('section[id]').forEach(section => {
+      if (y >= section.offsetTop) active = section.id;
     });
+    navLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      link.classList.toggle('active', href === `#${active}`);
+    });
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 
-    sections.forEach((section) => observer.observe(section));
+  const form = document.getElementById('whatsappForm');
+  if (form) {
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const nome = document.getElementById('nome')?.value?.trim() || '';
+      const cidade = document.getElementById('cidade')?.value?.trim() || '';
+      const servico = document.getElementById('servico')?.value?.trim() || '';
+      const texto = `Olá, vim pelo site Quintal Vivo GO.
+
+Nome: ${nome}
+Cidade/Bairro: ${cidade}
+Serviço: ${servico}
+
+Gostaria de solicitar um orçamento.`;
+      window.location.href = `https://wa.me/5564999075881?text=${encodeURIComponent(texto)}`;
+    });
   }
 });

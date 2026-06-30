@@ -3,10 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Projeto Quintal Vivo GO: limpeza de terrenos, prevenção contra dengue, educação ambiental e cuidado com espaços urbanos.">
+  <meta name="description" content="Quintal Vivo GO: limpeza de lotes e quintais, prevenção contra dengue, cuidado ambiental e conscientização para Paraúna, Goiânia, Goiás e Centro-Oeste.">
   <meta name="theme-color" content="#14532d">
+  <meta name="robots" content="index,follow">
 
-  <title>Projeto Quintal Vivo GO | Limpeza de Terrenos e Combate à Dengue</title>
+  <title>Quintal Vivo GO | Limpeza de Lotes, Saúde e Meio Ambiente</title>
+  <meta property="og:title" content="Quintal Vivo GO">
+  <meta property="og:description" content="Limpeza, saúde pública e conscientização ambiental em Paraúna/GO e região.">
+  <meta property="og:image" content="/assets/img/og-quintal-vivo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +28,12 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body id="inicio">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-navbar" aria-label="Menu principal">
     <div class="container">
       <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio" aria-label="Voltar para o início">
-        <span class="brand-mark">QV</span>
+        <img src="assets/icons/icon-192.png" alt="" class="brand-icon" width="42" height="42">
         <span>Quintal Vivo GO</span>
       </a>
 
@@ -32,252 +45,291 @@
         <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
           <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
-          <li class="nav-item"><a class="nav-link" href="#dengue">Dengue</a></li>
-          <li class="nav-item"><a class="nav-link" href="#natureza">Natureza</a></li>
-          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-          <li class="nav-item"><a class="nav-link btn-nav" href="#contato">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="#consciencia">Conscientização</a></li>
+          <li class="nav-item"><a class="nav-link" href="#fontes">Fontes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#regiao">Região</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="/whatsapp">WhatsApp</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <header class="hero">
-    <div class="container hero-content text-center" data-aos="fade-up">
-      <span class="badge rounded-pill text-bg-success hero-badge">Limpeza • Saúde • Natureza</span>
-      <h1>Projeto Quintal Vivo GO</h1>
-      <p class="hero-subtitle">Transformando terrenos e quintais abandonados em espaços mais limpos, seguros e saudáveis.</p>
-      <p class="hero-text">Serviço de limpeza com foco em prevenção contra dengue, descarte consciente e valorização do ambiente urbano.</p>
-
-      <div class="hero-actions">
-        <a href="#contato" class="btn btn-success btn-lg">Solicitar orçamento</a>
-        <a href="#servicos" class="btn btn-outline-light btn-lg">Ver serviços</a>
+    <div class="container hero-grid" data-aos="fade-up">
+      <div class="hero-copy">
+        <span class="badge rounded-pill hero-badge">Paraúna • Goiás • Centro-Oeste</span>
+        <img src="assets/img/logo-quintal-vivo.svg" alt="Quintal Vivo GO" class="hero-logo">
+        <h1>Limpeza de lote também é cuidado com a saúde e com o meio ambiente.</h1>
+        <p class="hero-subtitle">O Quintal Vivo GO une serviço de limpeza, prevenção contra dengue, descarte consciente e educação ambiental para transformar áreas abandonadas em espaços mais seguros.</p>
+        <div class="hero-actions">
+          <a href="/whatsapp" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> Conversar no WhatsApp</a>
+          <a href="#consciencia" class="btn btn-outline-light btn-lg">Entender os riscos</a>
+        </div>
+        <p class="hero-note">Atendimento pelo WhatsApp: <strong>(64) 99907-5881</strong></p>
+      </div>
+      <div class="hero-card" aria-label="Resumo do projeto">
+        <img src="assets/img/comparativo-lote.svg" alt="Comparação entre lote abandonado e lote limpo">
       </div>
     </div>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section class="section section-light" id="servicos">
       <div class="container">
         <div class="section-heading text-center" data-aos="fade-up">
-          <span class="eyebrow">O que fazemos</span>
-          <h2>Nossos serviços</h2>
-          <p>Atuação prática para deixar terrenos, quintais e áreas externas mais seguros para moradores e vizinhos.</p>
+          <span class="eyebrow">Serviço com propósito</span>
+          <h2>O que o Quintal Vivo GO faz</h2>
+          <p>O serviço resolve o problema visível do mato e do lixo, mas também ajuda a reduzir riscos para a vizinhança.</p>
         </div>
 
         <div class="row g-4">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="50">
             <article class="service-card h-100">
               <i class="bi bi-tree-fill service-icon text-success" aria-hidden="true"></i>
               <h3>Limpeza de terrenos</h3>
-              <p>Remoção de mato alto, galhos, folhas, entulho leve e resíduos que deixam a área abandonada ou insegura.</p>
+              <p>Roçagem, retirada visual de excesso de mato, folhas, galhos e organização inicial da área.</p>
             </article>
           </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <article class="service-card h-100">
               <i class="bi bi-bug-fill service-icon text-danger" aria-hidden="true"></i>
               <h3>Prevenção contra dengue</h3>
-              <p>Identificação visual de pontos críticos, orientação preventiva e redução de locais que podem acumular água parada.</p>
+              <p>Orientação para eliminar recipientes que acumulam água e pontos que favorecem o Aedes aegypti.</p>
             </article>
           </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
             <article class="service-card h-100">
-              <i class="bi bi-house-heart-fill service-icon text-primary" aria-hidden="true"></i>
-              <h3>Cuidado com quintais</h3>
-              <p>Organização de áreas externas para melhorar circulação, aparência, segurança e qualidade de vida no imóvel.</p>
+              <i class="bi bi-recycle service-icon text-primary" aria-hidden="true"></i>
+              <h3>Descarte consciente</h3>
+              <p>Separação do que pode ser destinado corretamente, evitando que lixo vire foco de doença e poluição.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <article class="service-card h-100">
+              <i class="bi bi-megaphone-fill service-icon text-warning" aria-hidden="true"></i>
+              <h3>Conscientização</h3>
+              <p>Informação clara para o morador entender por que cuidar do lote é proteger a casa, a rua e a cidade.</p>
             </article>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-danger-soft" id="dengue">
+    <section class="section risk-section" id="consciencia">
+      <div class="container">
+        <div class="section-heading text-center text-white" data-aos="fade-up">
+          <span class="eyebrow eyebrow-light">O que cada ação gera</span>
+          <h2>Quando um terreno fica abandonado, o problema não fica parado</h2>
+          <p>O mato alto, o entulho e o lixo acumulado criam uma cadeia de consequências para a saúde, a segurança e a natureza.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="info-panel h-100">
+              <img src="assets/img/foco-dengue.svg" alt="Ilustração de mosquito e água parada" class="panel-illustration">
+              <h3>Água parada vira criadouro</h3>
+              <p>Garrafas, pneus, latas, baldes, plásticos e qualquer recipiente esquecido no lote podem acumular água. A prevenção começa removendo o que segura água e mantendo a área vistoriada.</p>
+              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" target="_blank" rel="noopener" class="source-link">Ler orientação do Ministério da Saúde <i class="bi bi-box-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="info-panel h-100">
+              <img src="assets/img/residuos-ambiente.svg" alt="Ilustração sobre resíduos e meio ambiente" class="panel-illustration">
+              <h3>Lixo irregular contamina e atrai vetores</h3>
+              <p>Resíduos sem manejo correto podem degradar solo, lençol freático e cursos d’água, além de favorecer vetores de doenças. Limpar é só uma parte: dar destino correto ao resíduo é o passo responsável.</p>
+              <a href="https://goias.gov.br/meioambiente/residuos-solidos/" target="_blank" rel="noopener" class="source-link">Ver orientação da Semad Goiás <i class="bi bi-box-arrow-up-right"></i></a>
+            </article>
+          </div>
+        </div>
+
+        <div class="cause-grid mt-4" data-aos="fade-up">
+          <article>
+            <strong>Mato alto</strong>
+            <span>pode esconder lixo, animais peçonhentos e dificultar a fiscalização visual do terreno.</span>
+          </article>
+          <article>
+            <strong>Entulho</strong>
+            <span>pode acumular água, virar abrigo de vetores e passar sensação de abandono.</span>
+          </article>
+          <article>
+            <strong>Lixo doméstico</strong>
+            <span>pode contaminar o ambiente e atrair insetos, roedores e mau cheiro.</span>
+          </article>
+          <article>
+            <strong>Falta de cuidado</strong>
+            <span>pode gerar reclamações, fiscalização, multas e risco coletivo para a vizinhança.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="fontes">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <span class="eyebrow">Fontes confiáveis</span>
+          <h2>Informação real para conscientizar</h2>
+          <p>Esta página direciona o visitante para fontes oficiais e reportagens reais sobre dengue, resíduos, limpeza urbana e riscos de terrenos abandonados.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4" data-aos="fade-up">
+            <article class="source-card h-100 official">
+              <span class="tag">Governo Federal</span>
+              <h3>Ministério da Saúde: Dengue</h3>
+              <p>Explica sintomas, prevenção e cuidados contra a dengue, incluindo remoção de recipientes que podem virar criadouros.</p>
+              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" target="_blank" rel="noopener">Abrir fonte oficial</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="50">
+            <article class="source-card h-100 official">
+              <span class="tag">Governo Federal</span>
+              <h3>Aedes aegypti</h3>
+              <p>Informações oficiais sobre o mosquito transmissor da dengue, zika e chikungunya.</p>
+              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/aedes-aegypti" target="_blank" rel="noopener">Abrir fonte oficial</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="source-card h-100 official">
+              <span class="tag">Goiás</span>
+              <h3>Painel de Dengue da SES-GO</h3>
+              <p>Painel público com indicadores da dengue em Goiás, útil para acompanhar o cenário estadual e regional.</p>
+              <a href="https://indicadores.saude.go.gov.br/public/dengue.html" target="_blank" rel="noopener">Abrir indicadores</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4" data-aos="fade-up">
+            <article class="source-card h-100 official">
+              <span class="tag">Meio ambiente</span>
+              <h3>Semad Goiás: resíduos sólidos</h3>
+              <p>Mostra como resíduos mal gerenciados causam danos ambientais e problemas de saúde pública.</p>
+              <a href="https://goias.gov.br/meioambiente/residuos-solidos/" target="_blank" rel="noopener">Abrir Semad Goiás</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="50">
+            <article class="source-card h-100 official">
+              <span class="tag">Paraúna</span>
+              <h3>Prefeitura de Paraúna</h3>
+              <p>Canal oficial municipal para acompanhar serviços, comunicados e contatos públicos da cidade.</p>
+              <a href="https://www.parauna.go.gov.br/" target="_blank" rel="noopener">Abrir site da prefeitura</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="source-card h-100 official">
+              <span class="tag">Goiânia</span>
+              <h3>Limpeza de lotes e fiscalização</h3>
+              <p>Conteúdo público sobre regras e multas relacionadas a lotes baldios e focos do mosquito em Goiânia.</p>
+              <a href="https://www.goiania.go.leg.br/sala-de-imprensa/agencia-camara-goiania/Agencia-Camara-Goiania_noticias/aprovadas-novas-regras-para-limpeza-de-lotes-baldios" target="_blank" rel="noopener">Abrir notícia oficial</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-section" id="videos">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <span class="eyebrow">Reportagens e alertas</span>
+          <h2>Vídeos para mostrar o problema na prática</h2>
+          <p>Os botões abaixo levam para reportagens reais. Elas ajudam o visitante a entender que lote sujo, água parada e lixo acumulado afetam toda a comunidade.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="zoom-in">
+            <article class="video-card h-100">
+              <i class="bi bi-play-circle-fill"></i>
+              <h3>Água parada e risco de dengue</h3>
+              <p>Reportagem sobre entulhos e objetos nas ruas gerando criadouros do Aedes aegypti.</p>
+              <a href="https://globoplay.globo.com/v/4125277/" target="_blank" rel="noopener">Assistir reportagem</a>
+            </article>
+          </div>
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <article class="video-card h-100">
+              <i class="bi bi-play-circle-fill"></i>
+              <h3>Mato alto em bairro de Goiânia</h3>
+              <p>Exemplo de reclamação sobre mato alto e abandono em área urbana.</p>
+              <a href="https://globoplay.globo.com/v/10460609/" target="_blank" rel="noopener">Assistir reportagem</a>
+            </article>
+          </div>
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <article class="video-card h-100">
+              <i class="bi bi-play-circle-fill"></i>
+              <h3>Lixo acumulado vira foco</h3>
+              <p>Alerta sobre lixo acumulado se transformando em foco de dengue em Goiânia.</p>
+              <a href="https://globoplay.globo.com/v/4660924/" target="_blank" rel="noopener">Assistir reportagem</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section region-section" id="regiao">
       <div class="container">
         <div class="row align-items-center g-5">
-          <div class="col-lg-5" data-aos="fade-right">
-            <span class="eyebrow danger">Combate à dengue</span>
-            <h2>Terreno sujo pode virar risco para toda a vizinhança</h2>
-            <p class="lead">Mato alto, lixo espalhado, pneus, garrafas, lonas e recipientes esquecidos podem facilitar focos do mosquito.</p>
-            <a href="#contato" class="btn btn-danger btn-lg">Quero prevenir riscos</a>
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="eyebrow">Foco regional</span>
+            <h2>Paraúna, Goiânia e Goiás: cuidado local com impacto coletivo</h2>
+            <p>O Centro-Oeste tem períodos de chuva que exigem atenção redobrada com áreas abertas. Em cidades como Paraúna, manter lotes e quintais limpos ajuda a proteger a rua, a vizinhança e os espaços naturais do Cerrado.</p>
+            <p>O objetivo do Quintal Vivo GO é criar uma ponte entre serviço prático e consciência: a limpeza remove o problema visível, e a informação ajuda a evitar que ele volte.</p>
+            <a href="/whatsapp" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> Chamar para orçamento</a>
           </div>
-
-          <div class="col-lg-7" data-aos="fade-left">
-            <div class="row g-3">
-              <div class="col-md-6">
-                <div class="info-card h-100">
-                  <i class="bi bi-droplet-half text-danger" aria-hidden="true"></i>
-                  <h3>Água parada</h3>
-                  <p>Verifique vasos, garrafas, calhas, pneus, caixas d'água e qualquer recipiente que acumule água.</p>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="info-card h-100">
-                  <i class="bi bi-shield-check text-success" aria-hidden="true"></i>
-                  <h3>Ambiente protegido</h3>
-                  <p>Manter o quintal limpo reduz abrigo para insetos, animais indesejados e pontos de descarte irregular.</p>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="alert alert-warning mb-0">
-                  <strong>Atenção:</strong> febre alta, dor no corpo, manchas vermelhas e dor atrás dos olhos podem ser sintomas de dengue. Procure atendimento médico.
-                </div>
-              </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="checklist-card">
+              <h3>Checklist de cuidado do lote</h3>
+              <ul>
+                <li>Remover objetos que acumulam água.</li>
+                <li>Não jogar lixo ou entulho em terreno aberto.</li>
+                <li>Manter mato controlado para facilitar a vistoria.</li>
+                <li>Separar resíduos e buscar destinação correta.</li>
+                <li>Observar calhas, ralos, caixas, pneus e garrafas.</li>
+                <li>Conversar com vizinhos e incentivar cuidado coletivo.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-nature" id="natureza">
+    <section class="section contact-section" id="contato">
       <div class="container">
-        <div class="section-heading text-center" data-aos="fade-up">
-          <span class="eyebrow">Meio ambiente</span>
-          <h2>Preservar hoje é garantir um amanhã melhor</h2>
-          <p>O Quintal Vivo GO une serviço, conscientização e cuidado com o bairro.</p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
-            <article class="nature-card h-100">
-              <i class="bi bi-recycle" aria-hidden="true"></i>
-              <h3>Descarte consciente</h3>
-              <p>Separar e destinar resíduos corretamente evita poluição e melhora a organização do espaço.</p>
-            </article>
+        <div class="contact-card" data-aos="fade-up">
+          <div>
+            <span class="eyebrow">Atendimento rápido</span>
+            <h2>Quer limpar ou avaliar um lote?</h2>
+            <p>Envie uma mensagem no WhatsApp com o endereço aproximado, bairro, fotos do local e o tipo de serviço necessário. Isso ajuda a montar um orçamento mais certeiro.</p>
+            <a href="/whatsapp" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> Conversar no WhatsApp</a>
           </div>
-
-          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <article class="nature-card h-100">
-              <i class="bi bi-flower1" aria-hidden="true"></i>
-              <h3>Áreas mais verdes</h3>
-              <p>Um quintal limpo abre caminho para jardins, hortas, árvores e espaços mais agradáveis.</p>
-            </article>
-          </div>
-
-          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
-            <article class="nature-card h-100">
-              <i class="bi bi-people-fill" aria-hidden="true"></i>
-              <h3>Comunidade saudável</h3>
-              <p>Quando uma área é cuidada, a rua inteira ganha mais segurança, beleza e qualidade de vida.</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-light" id="galeria">
-      <div class="container">
-        <div class="section-heading text-center" data-aos="fade-up">
-          <span class="eyebrow">Galeria</span>
-          <h2>Ideias de transformação</h2>
-          <p>Referências visuais para comunicar limpeza, natureza e cuidado ambiental.</p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
-            <article class="gallery-card">
-              <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80" alt="Plantas verdes representando cuidado ambiental">
-              <div>
-                <h3>Educação ambiental</h3>
-                <p>Conscientização para manter espaços limpos.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <article class="gallery-card">
-              <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=900&q=80" alt="Área verde preservada ao pôr do sol">
-              <div>
-                <h3>Natureza urbana</h3>
-                <p>Mais verde, menos abandono.</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
-            <article class="gallery-card">
-              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80" alt="Trilha em área arborizada limpa">
-              <div>
-                <h3>Espaços limpos</h3>
-                <p>Ambientes mais seguros para todos.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-contact" id="contato">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <div class="contact-panel" data-aos="fade-up">
-              <div class="section-heading text-center mb-4">
-                <span class="eyebrow">Fale conosco</span>
-                <h2>Solicite avaliação ou envie uma denúncia ambiental</h2>
-                <p>Use o formulário para enviar nome, contato, endereço aproximado e descrição do terreno ou quintal.</p>
-              </div>
-
-              <form name="contato-quintal-vivo" method="POST" action="/obrigado.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
-                <input type="hidden" name="form-name" value="contato-quintal-vivo">
-                <p class="visually-hidden">
-                  <label>Não preencha este campo: <input name="bot-field"></label>
-                </p>
-
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label class="form-label" for="nome">Nome</label>
-                    <input class="form-control" id="nome" name="nome" type="text" placeholder="Seu nome" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <label class="form-label" for="contatoPessoa">Contato</label>
-                    <input class="form-control" id="contatoPessoa" name="contato" type="text" placeholder="Telefone, WhatsApp ou e-mail" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <label class="form-label" for="assunto">Assunto</label>
-                    <select class="form-select" id="assunto" name="assunto" required>
-                      <option value="">Escolha uma opção</option>
-                      <option>Solicitar limpeza de terreno</option>
-                      <option>Limpeza de quintal</option>
-                      <option>Prevenção contra dengue</option>
-                      <option>Denúncia de terreno abandonado</option>
-                      <option>Outra solicitação</option>
-                    </select>
-                  </div>
-
-                  <div class="col-md-6">
-                    <label class="form-label" for="localizacao">Localização aproximada</label>
-                    <input class="form-control" id="localizacao" name="localizacao" type="text" placeholder="Bairro, rua ou ponto de referência">
-                  </div>
-
-                  <div class="col-12">
-                    <label class="form-label" for="mensagem">Mensagem</label>
-                    <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Descreva o terreno, o tipo de limpeza e o melhor horário para retorno." required></textarea>
-                  </div>
-
-                  <div class="col-12 text-center mt-4">
-                    <button class="btn btn-success btn-lg px-5" type="submit">Enviar solicitação</button>
-                  </div>
-                </div>
-              </form>
+          <form name="contato-quintal-vivo" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="whatsapp-form" id="whatsappForm">
+            <input type="hidden" name="form-name" value="contato-quintal-vivo">
+            <p class="d-none"><label>Não preencher: <input name="bot-field"></label></p>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Seu nome</label>
+              <input type="text" class="form-control" id="nome" name="nome" autocomplete="name" placeholder="Ex.: João" required>
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="cidade" class="form-label">Cidade ou bairro</label>
+              <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Ex.: Paraúna/GO" required>
+            </div>
+            <div class="mb-3">
+              <label for="servico" class="form-label">O que precisa?</label>
+              <textarea class="form-control" id="servico" name="servico" rows="4" placeholder="Descreva o lote, mato, lixo, entulho ou risco de dengue." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100"><i class="bi bi-send me-2"></i> Montar mensagem no WhatsApp</button>
+          </form>
         </div>
       </div>
     </section>
   </main>
 
+  <a class="whatsapp-float" href="/whatsapp" aria-label="Conversar no WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
   <footer class="site-footer">
-    <div class="container text-center">
-      <h2>Quintal Vivo GO</h2>
-      <p>Limpeza de terrenos • Saúde pública • Prevenção contra dengue • Meio ambiente</p>
-      <a href="#inicio" class="footer-link">Voltar ao início</a>
-      <hr>
-      <p class="mb-0">© <span id="anoAtual">2026</span> Projeto Quintal Vivo GO. Todos os direitos reservados.</p>
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <div class="d-flex align-items-center gap-2">
+        <img src="assets/icons/icon-192.png" alt="" width="36" height="36" class="footer-icon">
+        <span>© <span id="ano"></span> Quintal Vivo GO</span>
+      </div>
+      <span>Limpeza, saúde pública e cuidado ambiental.</span>
     </div>
   </footer>
 
