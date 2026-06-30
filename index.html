@@ -1,28 +1,25 @@
-<!-- ====================================================== -->
-<!-- INÍCIO - INDEX.HTML - PARTE 1 -->
-<!-- COLE NO ARQUIVO index.html -->
-<!-- ====================================================== -->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto Quintal Vivo</title>
 
-<title>Projeto Quintal Vivo | Saúde • Natureza • Educação Ambiental</title>
+<meta name="description" content="Portal de conscientização ambiental, saúde pública e combate à dengue.">
 
-<meta name="description" content="Portal independente de conscientização ambiental, saúde pública e limpeza de lotes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<meta name="theme-color" content="#1E3A2F">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="manifest" href="manifest.json">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/variables.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/animations.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 <link rel="stylesheet" href="assets/css/style.css">
 
@@ -30,1617 +27,585 @@
 
 <body>
 
-<header class="header">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-opacity-75">
 
 <div class="container">
 
-<div class="logo">
-
-<h1>
-
-Projeto <span>Quintal Vivo</span>
-
-</h1>
-
-<p>
-
-Conhecimento que protege. Atitudes que transformam.
-
-</p>
-
-</div>
-
-<nav class="menu">
-
-<a href="#inicio">Início</a>
-
-<a href="#servicos">Serviços</a>
-
-<a href="#conscientizacao">Conscientização</a>
-
-<a href="#animais">Animais</a>
-
-<a href="#dengue">Dengue</a>
-
-<a href="#estatisticas">Dados</a>
-
-<a href="#noticias">Notícias</a>
-
-<a href="#biblioteca">Biblioteca</a>
-
-<a href="#contato">Contato</a>
-
-</nav>
-
-<div class="menu-mobile">
-
-☰
-
-</div>
-
-</div>
-
-</header>
-
-<section id="inicio" class="hero">
-
-<div class="overlay"></div>
-
-<div class="hero-content">
-
-<span class="hero-tag">
-
-Portal Independente
-
-</span>
-
-<h2>
-
-Uma cidade mais limpa começa por um único terreno.
-
-</h2>
-
-<p>
-
-Este projeto foi criado para conscientizar moradores,
-proteger famílias,
-preservar a natureza
-e incentivar ambientes mais seguros.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="#conscientizacao" class="btn-primary">
-
-Explorar
-
+<a class="navbar-brand fw-bold" href="#">
+🌿 Projeto Quintal Vivo
 </a>
 
-<a href="#contato" class="btn-secondary">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
 
-Entrar em contato
+<span class="navbar-toggler-icon"></span>
 
-</a>
+</button>
 
-</div>
+<div class="collapse navbar-collapse" id="menu">
 
-</div>
+<ul class="navbar-nav ms-auto">
 
-</section>
+<li class="nav-item"><a class="nav-link" href="#">Início</a></li>
 
-<section class="cards-home">
+<li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
 
-<div class="container">
+<li class="nav-item"><a class="nav-link" href="#">Dengue</a></li>
 
-<div class="card">
+<li class="nav-item"><a class="nav-link" href="#">Natureza</a></li>
 
-<div class="icone">
-
-🦟
-
-</div>
-
-<h3>
-
-Dengue
-
-</h3>
-
-<p>
-
-Elimine criadouros e reduza riscos para sua família.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="icone">
-
-🐍
-
-</div>
-
-<h3>
-
-Animais Peçonhentos
-
-</h3>
-
-<p>
-
-Terrenos abandonados favorecem escorpiões,
-aranhas e cobras.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="icone">
-
-🌳
-
-</div>
-
-<h3>
-
-Natureza
-
-</h3>
-
-<p>
-
-Preservar o ambiente também protege nossa saúde.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="icone">
-
-❤️
-
-</div>
-
-<h3>
-
-Saúde Pública
-
-</h3>
-
-<p>
-
-Prevenção sempre custa menos que tratamento.
-
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="servicos" class="servicos">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Como podemos ajudar
-
-</h2>
-
-<p>
-
-Serviços especializados para limpeza e conservação.
-
-</p>
-
-</div>
-
-<div class="grid-servicos">
-
-<div class="servico">
-
-<img src="assets/img/servicos/rocagem.jpg" alt="Roçagem">
-
-<h3>
-
-Roçagem
-
-</h3>
-
-<p>
-
-Remoção de mato alto.
-
-</p>
-
-</div>
-
-<div class="servico">
-
-<img src="assets/img/servicos/entulho.jpg" alt="Entulho">
-
-<h3>
-
-Retirada de Entulho
-
-</h3>
-
-<p>
-
-Coleta e descarte correto.
-
-</p>
-
-</div>
-
-<div class="servico">
-
-<img src="assets/img/servicos/limpeza.jpg" alt="Limpeza">
-
-<h3>
-
-Limpeza Completa
-
-</h3>
-
-<p>
-
-Terrenos,
-quintais,
-chácaras
-e lotes urbanos.
-
-</p>
-
-</div>
-
-<div class="servico">
-
-<img src="assets/img/servicos/manutencao.jpg" alt="Manutenção">
-
-<h3>
-
-Manutenção
-
-</h3>
-
-<p>
-
-Evite que o problema volte.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ====================================================== -->
-<!-- FIM DA PARTE 1 -->
-<!-- COLE A PARTE 2 ABAIXO DESTA LINHA -->
-<!-- ====================================================== -->
-<!-- ====================================================== -->
-<!-- INÍCIO - INDEX.HTML - PARTE 2 -->
-<!-- COLE ABAIXO DA PARTE 1 -->
-<!-- ====================================================== -->
-
-<section id="antes-depois" class="antes-depois">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Antes e Depois
-
-</h2>
-
-<p>
-
-Veja como um terreno pode ser transformado.
-
-</p>
-
-</div>
-
-<div class="comparador">
-
-<div class="item">
-
-<img src="assets/img/antes/antes1.jpg" alt="Antes">
-
-<h3>Antes</h3>
-
-<p>
-
-Mato alto, lixo, água parada,
-abrigo para animais peçonhentos.
-
-</p>
-
-</div>
-
-<div class="item">
-
-<img src="assets/img/depois/depois1.jpg" alt="Depois">
-
-<h3>Depois</h3>
-
-<p>
-
-Área limpa,
-segura,
-organizada
-e valorizada.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="conscientizacao" class="conscientizacao">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Por que manter um lote limpo?
-
-</h2>
-
-<p>
-
-Limpeza é investimento em saúde,
-segurança e qualidade de vida.
-
-</p>
-
-</div>
-
-<div class="grid-info">
-
-<div class="info">
-
-<h3>
-
-🦟 Evita Dengue
-
-</h3>
-
-<p>
-
-Eliminar água parada impede a reprodução
-do mosquito Aedes aegypti.
-
-</p>
-
-</div>
-
-<div class="info">
-
-<h3>
-
-🐍 Afasta Cobras
-
-</h3>
-
-<p>
-
-Vegetação alta favorece esconderijos.
-
-</p>
-
-</div>
-
-<div class="info">
-
-<h3>
-
-🦂 Evita Escorpiões
-
-</h3>
-
-<p>
-
-Entulho,
-madeira
-e lixo acumulado
-atraem escorpiões.
-
-</p>
-
-</div>
-
-<div class="info">
-
-<h3>
-
-🐀 Reduz Roedores
-
-</h3>
-
-<p>
-
-Lixo acumulado aumenta a presença
-de ratos e doenças.
-
-</p>
-
-</div>
-
-<div class="info">
-
-<h3>
-
-🏡 Valoriza o imóvel
-
-</h3>
-
-<p>
-
-Um lote limpo melhora toda a vizinhança.
-
-</p>
-
-</div>
-
-<div class="info">
-
-<h3>
-
-🌳 Protege o Meio Ambiente
-
-</h3>
-
-<p>
-
-Evita poluição do solo,
-rios
-e nascentes.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="animais" class="animais">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Animais Peçonhentos
-
-</h2>
-
-<p>
-
-Conheça alguns animais encontrados
-em terrenos abandonados.
-
-</p>
-
-</div>
-
-<div class="grid-animais">
-
-<div class="animal">
-
-<img src="assets/img/icons/escorpiao.png">
-
-<h3>
-
-Escorpião
-
-</h3>
-
-<p>
-
-Prefere locais escuros,
-úmidos
-e com entulho.
-
-</p>
-
-</div>
-
-<div class="animal">
-
-<img src="assets/img/icons/cobra.png">
-
-<h3>
-
-Cobras
-
-</h3>
-
-<p>
-
-Gostam de vegetação alta
-e locais silenciosos.
-
-</p>
-
-</div>
-
-<div class="animal">
-
-<img src="assets/img/icons/aranha.png">
-
-<h3>
-
-Aranhas
-
-</h3>
-
-<p>
-
-Encontradas em folhas,
-madeiras
-e lixo.
-
-</p>
-
-</div>
-
-<div class="animal">
-
-<img src="assets/img/icons/rato.png">
-
-<h3>
-
-Roedores
-
-</h3>
-
-<p>
-
-Encontram alimento
-e abrigo
-em terrenos abandonados.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="dengue" class="dengue">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Combate à Dengue
-
-</h2>
-
-<p>
-
-A prevenção começa em casa.
-
-</p>
-
-</div>
-
-<div class="dengue-grid">
-
-<div>
-
-<h3>
-
-Como prevenir
-
-</h3>
-
-<ul>
-
-<li>Eliminar água parada.</li>
-
-<li>Limpar calhas.</li>
-
-<li>Guardar pneus cobertos.</li>
-
-<li>Descartar lixo corretamente.</li>
-
-<li>Manter terrenos limpos.</li>
+<li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
 
 </ul>
 
 </div>
 
-<div>
-
-<img src="assets/img/dengue/aedes.jpg" alt="Mosquito">
-
 </div>
 
-</div>
+</nav>
 
-</div>
+<header class="hero">
 
-</section>
+<div class="container text-center">
 
-<section id="legislacao" class="legislacao">
+<span class="badge bg-success mb-3 fs-6">
+Portal de Educação Ambiental
+</span>
 
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Legislação
-
-</h2>
-
-<p>
-
-Cada município possui normas
-sobre limpeza e conservação
-de lotes urbanos.
-
-</p>
-
-</div>
-
-<div class="leis">
-
-<div class="lei">
-
-<h3>
-
-Responsabilidade do proprietário
-
-</h3>
-
-<p>
-
-Manter o terreno limpo contribui
-para a saúde pública
-e evita penalidades previstas
-na legislação municipal.
-
-</p>
-
-</div>
-
-<div class="lei">
-
-<h3>
-
-Fiscalização
-
-</h3>
-
-<p>
-
-Prefeituras e órgãos de vigilância
-podem realizar notificações
-conforme a legislação local.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ====================================================== -->
-<!-- FIM DA PARTE 2 -->
-<!-- COLE A PARTE 3 ABAIXO DESTA LINHA -->
-<!-- ====================================================== -->
-<!-- ====================================================== -->
-<!-- INÍCIO - INDEX.HTML - PARTE 3 -->
-<!-- COLE ABAIXO DA PARTE 2 -->
-<!-- ====================================================== -->
-
-<section id="estatisticas" class="estatisticas">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Dados e Estatísticas
-
-</h2>
-
-<p>
-
-Esta área exibirá gráficos e indicadores oficiais sobre saúde pública,
-meio ambiente e qualidade urbana.
-
-</p>
-
-</div>
-
-<div class="cards-estatisticas">
-
-<div class="estatistica">
-
-<h3>
-
-Dengue
-
-</h3>
-
-<p>
-
-Gráficos atualizados utilizando dados públicos.
-
-</p>
-
-</div>
-
-<div class="estatistica">
-
-<h3>
-
-Meio Ambiente
-
-</h3>
-
-<p>
-
-Indicadores ambientais e sustentabilidade.
-
-</p>
-
-</div>
-
-<div class="estatistica">
-
-<h3>
-
-Goiás
-
-</h3>
-
-<p>
-
-Dados estaduais.
-
-</p>
-
-</div>
-
-<div class="estatistica">
-
-<h3>
-
-Paraúna
-
-</h3>
-
-<p>
-
-Informações municipais.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="noticias" class="noticias">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Notícias Oficiais
-
-</h2>
-
-<p>
-
-Acompanhe informações de fontes confiáveis.
-
-</p>
-
-</div>
-
-<div class="grid-noticias">
-
-<article class="noticia">
-
-<h3>
-
-Ministério da Saúde
-
-</h3>
-
-<p>
-
-Campanhas nacionais,
-prevenção
-e vacinação.
-
-</p>
-
-<a href="https://www.gov.br/saude" target="_blank">
-
-Acessar
-
-</a>
-
-</article>
-
-<article class="noticia">
-
-<h3>
-
-Fiocruz
-
-</h3>
-
-<p>
-
-Pesquisas
-e materiais educativos.
-
-</p>
-
-<a href="https://portal.fiocruz.br/" target="_blank">
-
-Acessar
-
-</a>
-
-</article>
-
-<article class="noticia">
-
-<h3>
-
-Governo de Goiás
-
-</h3>
-
-<p>
-
-Informações estaduais.
-
-</p>
-
-<a href="https://goias.gov.br/" target="_blank">
-
-Acessar
-
-</a>
-
-</article>
-
-<article class="noticia">
-
-<h3>
-
-Prefeitura de Paraúna
-
-</h3>
-
-<p>
-
-Campanhas,
-mutirões
-e comunicados.
-
-</p>
-
-<a href="https://parauna.go.gov.br/" target="_blank">
-
-Acessar
-
-</a>
-
-</article>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="biblioteca" class="biblioteca">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Biblioteca
-
-</h2>
-
-<p>
-
-Materiais gratuitos para estudo.
-
-</p>
-
-</div>
-
-<div class="livros">
-
-<div class="livro">
-
-📘
-
-<h3>
-
-Saúde Pública
-
-</h3>
-
-</div>
-
-<div class="livro">
-
-🌳
-
-<h3>
-
-Meio Ambiente
-
-</h3>
-
-</div>
-
-<div class="livro">
-
-♻️
-
-<h3>
-
-Reciclagem
-
-</h3>
-
-</div>
-
-<div class="livro">
-
-🦟
-
-<h3>
-
-Dengue
-
-</h3>
-
-</div>
-
-<div class="livro">
-
-🐍
-
-<h3>
-
-Animais Peçonhentos
-
-</h3>
-
-</div>
-
-<div class="livro">
-
-📚
-
-<h3>
-
-Educação Ambiental
-
-</h3>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="contato" class="contato">
-
-<div class="container">
-
-<div class="titulo">
-
-<h2>
-
-Contato
-
-</h2>
-
-<p>
-
-Em breve:
-WhatsApp,
-Instagram,
-Facebook,
-E-mail
-e formulário online.
-
-</p>
-
-</div>
-
-<div class="botoes-contato">
-
-<a href="#" class="botao">
-
-WhatsApp
-
-</a>
-
-<a href="#" class="botao">
-
-Instagram
-
-</a>
-
-<a href="#" class="botao">
-
-Facebook
-
-</a>
-
-<a href="#" class="botao">
-
-E-mail
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<div class="container">
-
-<h2>
-
+<h1 class="display-3 fw-bold">
 Projeto Quintal Vivo
+</h1>
 
+<h2 class="fs-2 fw-light mt-3">
+Transformando terrenos em espaços seguros.
 </h2>
 
-<p>
-
-Conhecimento que protege.
-Atitudes que transformam.
-
+<p class="lead mt-4">
+Educação ambiental • Saúde pública • Combate à dengue • Preservação da natureza
 </p>
 
-<p>
-
-Portal independente de educação ambiental,
-saúde pública
-e conscientização.
-
-</p>
-
-<p>
-
-© 2026 Projeto Quintal Vivo
-
-</p>
+<a href="#" class="btn btn-success btn-lg px-5 mt-3">
+Conheça o Projeto
+</a>
 
 </div>
 
-</footer>
+</header>
 
-<script src="assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- =========================
-CONSCIENTIZAÇÃO
-========================= -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-<section id="conscientizacao" class="conscientizacao">
-
-<div class="container">
-
-<h2>Conscientização</h2>
-
-<p class="subtitulo">
-Pequenas atitudes fazem uma grande diferença para toda a cidade.
-</p>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>🌱 Terrenos Limpos</h3>
-
-<p>
-Evite mato alto, lixo e água parada para reduzir riscos ambientais.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🦟 Combate à Dengue</h3>
-
-<p>
-Eliminar recipientes com água parada é a melhor forma de combater o mosquito.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>♻️ Descarte Correto</h3>
-
-<p>
-Nunca descarte móveis, pneus ou entulhos em terrenos baldios.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🌳 Preserve a Natureza</h3>
-
-<p>
-Áreas verdes limpas oferecem qualidade de vida e segurança para todos.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-==========================
-INDEX.HTML - PARTE 5
-COLE LOGO ABAIXO DE:
-<script src="assets/js/app.js"></script>
-==========================
-
-<!-- =========================
-ANIMAIS
-========================= -->
-
-<section id="animais" class="animais">
-
-<div class="container">
-
-<h2>Animais Peçonhentos</h2>
-
-<p class="subtitulo">
-Conheça os principais animais encontrados em terrenos abandonados.
-</p>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>🐍 Cobras</h3>
-
-<p>
-Evite colocar as mãos em buracos, entulhos ou vegetação alta.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🦂 Escorpiões</h3>
-
-<p>
-Gostam de locais escuros, úmidos e com acúmulo de materiais.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🕷 Aranhas</h3>
-
-<p>
-Use luvas ao movimentar madeiras, telhas e pedras.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🐀 Roedores</h3>
-
-<p>
-O lixo acumulado favorece ratos e diversas doenças.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ===== CONTINUA NA PARTE 6 ===== -->
-==========================
-INDEX.HTML - PARTE 6
-COLE ABAIXO DA PARTE 5
-==========================
-
-<!-- =========================
-DENGUE
-========================= -->
-
-<section id="dengue" class="dengue">
-
-<div class="container">
-
-<h2>Combate à Dengue</h2>
-
-<p class="subtitulo">
-Eliminar água parada é a forma mais eficiente de combater o mosquito.
-</p>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>🪣 Caixas d'água</h3>
-
-<p>
-Mantenha sempre bem tampadas.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🛞 Pneus</h3>
-
-<p>
-Guarde em locais cobertos e sem água acumulada.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🪴 Vasos de plantas</h3>
-
-<p>
-Evite pratos com água parada.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🧴 Garrafas e recipientes</h3>
-
-<p>
-Guarde sempre virados para baixo.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🌧 Calhas</h3>
-
-<p>
-Faça limpeza periódica para evitar acúmulo de água.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🏠 Quintais</h3>
-
-<p>
-Mantenha terrenos limpos e livres de objetos abandonados.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ===== CONTINUA NA PARTE 7 ===== -->
-==========================
-INDEX.HTML - PARTE 7
-COLE ABAIXO DA PARTE 6
-==========================
-
-<!-- =========================
-LEGISLAÇÃO
-========================= -->
-
-<section id="legislacao" class="legislacao">
-
-<div class="container">
-
-<h2>Legislação</h2>
-
-<p class="subtitulo">
-Manter terrenos limpos é uma obrigação prevista em diversas leis municipais.
-</p>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>📜 Responsabilidade</h3>
-
-<p>
-O proprietário deve manter o terreno limpo e cercado quando necessário.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>⚠️ Fiscalização</h3>
-
-<p>
-Prefeituras podem notificar e aplicar multas em casos de abandono.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🏡 Saúde Pública</h3>
-
-<p>
-Terrenos abandonados favorecem doenças, animais peçonhentos e acidentes.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🤝 Colaboração</h3>
-
-<p>
-Denuncie terrenos com riscos aos órgãos responsáveis do seu município.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ===== CONTINUA NA PARTE 8 ===== -->
-<!-- ==========================
-ESTATÍSTICAS
-========================== -->
-
-<section id="estatisticas" class="estatisticas">
-
-<div class="container">
-
-<h2>Estatísticas</h2>
-
-<p class="subtitulo">
-Dados que mostram a importância da prevenção.
-</p>
-
-<div class="cards">
-
-<div class="card">
-<h3>🦟 Dengue</h3>
-<p>Milhares de casos podem ser evitados eliminando água parada.</p>
-</div>
-
-<div class="card">
-<h3>🌱 Terrenos Limpos</h3>
-<p>Reduzem riscos ambientais e valorizam os bairros.</p>
-</div>
-
-<div class="card">
-<h3>🚛 Entulho</h3>
-<p>O descarte correto evita acidentes e proliferação de pragas.</p>
-</div>
-
-<div class="card">
-<h3>👨‍👩‍👧 Comunidade</h3>
-<p>A participação da população fortalece a saúde pública.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ===== CONTINUA NA PARTE 9 ===== -->
-<!-- ==========================
-NOTÍCIAS
-========================== -->
-
-<section id="noticias" class="noticias">
-
-<div class="container">
-
-<h2>Notícias</h2>
-
-<p class="subtitulo">
-Acompanhe informações e campanhas de conscientização.
-</p>
-
-<div class="cards">
-
-<div class="card">
-<h3>📢 Campanhas</h3>
-<p>
-Mutirões de limpeza ajudam a reduzir focos de doenças.
-</p>
-</div>
-
-<div class="card">
-<h3>🏘️ Comunidade</h3>
-<p>
-Moradores unidos mantêm bairros mais limpos e seguros.
-</p>
-</div>
-
-<div class="card">
-<h3>🌳 Meio Ambiente</h3>
-<p>
-Áreas verdes preservadas melhoram a qualidade de vida.
-</p>
-</div>
-
-<div class="card">
-<h3>📰 Informação</h3>
-<p>
-A educação ambiental é a melhor forma de prevenção.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ===== CONTINUA NA PARTE 10 ===== -->
-<!-- ==========================
-BIBLIOTECA
-========================== -->
-
-<section id="biblioteca" class="biblioteca">
-
-<div class="container">
-
-<h2>Biblioteca</h2>
-
-<p class="subtitulo">
-Materiais educativos sobre saúde, limpeza urbana e preservação ambiental.
-</p>
-
-<div class="cards">
-
-<div class="card">
-<h3>📘 Cartilhas</h3>
-<p>
-Guias com orientações para manter terrenos limpos e seguros.
-</p>
-</div>
-
-<div class="card">
-<h3>🎥 Vídeos</h3>
-<p>
-Conteúdos educativos sobre prevenção da dengue e meio ambiente.
-</p>
-</div>
-
-<div class="card">
-<h3>📄 Leis</h3>
-<p>
-Consulte normas e responsabilidades relacionadas aos terrenos urbanos.
-</p>
-</div>
-
-<div class="card">
-<h3>🌱 Educação Ambiental</h3>
-<p>
-Aprenda práticas sustentáveis para preservar a natureza.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ===== CONTINUA NA PARTE 11 ===== -->
-<!-- ==========================
-FOOTER
-========================== -->
-
-<footer>
-
-<div class="container">
-
-<h2>Projeto Quintal Vivo</h2>
-
-<p>
-Conhecimento que protege.<br>
-Atitudes que transformam.
-</p>
-
-<p>
-Portal independente de educação ambiental,
-saúde pública e conscientização.
-</p>
-
-<p>
-© 2026 Projeto Quintal Vivo
-</p>
-
-</div>
-
-</footer>
+<script>
+AOS.init();
+</script>
 
 <script src="assets/js/app.js"></script>
 
 </body>
 </html>
+
+<section id="servicos" class="py-5 bg-light text-dark">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">Nossos Serviços</h2>
+
+<p class="text-muted">
+Conheça as principais ações desenvolvidas pelo Projeto Quintal Vivo.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<i class="bi bi-tree-fill display-4 text-success"></i>
+
+<h4 class="mt-3">
+Limpeza de Terrenos
+</h4>
+
+<p>
+Remoção de mato alto, lixo e resíduos para manter áreas limpas e seguras.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<i class="bi bi-bug-fill display-4 text-danger"></i>
+
+<h4 class="mt-3">
+Combate à Dengue
+</h4>
+
+<p>
+Eliminação de criadouros do mosquito e ações de conscientização.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<i class="bi bi-heart-pulse-fill display-4 text-primary"></i>
+
+<h4 class="mt-3">
+Saúde Pública
+</h4>
+
+<p>
+Promovemos ambientes mais saudáveis para toda a comunidade.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- DENGUE -->
+<section id="dengue" class="py-5 bg-light">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-10">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-danger mb-3">
+Combate à Dengue
+</span>
+
+<h2 class="fw-bold">
+Prevenção salva vidas
+</h2>
+
+<p class="lead text-muted">
+Eliminar água parada é a forma mais eficiente de combater o mosquito Aedes aegypti.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+
+<div class="card border-0 shadow-sm h-100">
+
+<div class="card-body">
+
+<h4 class="text-danger">
+<i class="bi bi-droplet-fill"></i>
+ Evite água parada
+</h4>
+
+<p>
+Verifique vasos de plantas, pneus, garrafas, calhas, caixas d'água e qualquer recipiente que possa acumular água.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6">
+
+<div class="card border-0 shadow-sm h-100">
+
+<div class="card-body">
+
+<h4 class="text-success">
+<i class="bi bi-shield-check"></i>
+ Proteja sua família
+</h4>
+
+<p>
+Mantenha o quintal limpo, descarte corretamente o lixo e participe das campanhas de conscientização.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="alert alert-warning mt-5">
+
+<strong>Atenção:</strong>
+
+Febre alta, dor no corpo, manchas vermelhas e dor atrás dos olhos podem ser sintomas de dengue. Procure atendimento médico.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- NATUREZA -->
+<section id="natureza" class="py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-success mb-3">
+Meio Ambiente
+</span>
+
+<h2 class="fw-bold">
+Preservar hoje é garantir o amanhã
+</h2>
+
+<p class="lead text-muted">
+Cada pequena atitude ajuda na construção de uma cidade mais verde e saudável.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card border-0 shadow h-100">
+
+<div class="card-body text-center">
+
+<i class="bi bi-tree-fill display-4 text-success"></i>
+
+<h4 class="mt-3">
+Árvores
+</h4>
+
+<p>
+Plantar árvores melhora a qualidade do ar, reduz o calor e aumenta a biodiversidade.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card border-0 shadow h-100">
+
+<div class="card-body text-center">
+
+<i class="bi bi-recycle display-4 text-primary"></i>
+
+<h4 class="mt-3">
+Reciclagem
+</h4>
+
+<p>
+Separar corretamente os resíduos reduz a poluição e preserva os recursos naturais.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card border-0 shadow h-100">
+
+<div class="card-body text-center">
+
+<i class="bi bi-water display-4 text-info"></i>
+
+<h4 class="mt-3">
+Água
+</h4>
+
+<p>
+Evite desperdícios e mantenha rios, nascentes e córregos livres de lixo.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="text-center mt-5">
+
+<a href="#" class="btn btn-success btn-lg">
+Quero contribuir
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="galeria" class="py-5 bg-white">
+<div class="container">
+
+<div class="text-center mb-5">
+<h2 class="fw-bold">Galeria</h2>
+<p class="text-muted">
+Ações ambientais, limpeza de terrenos e preservação da natureza.
+</p>
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow-sm border-0 h-100">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+<div class="card-body">
+<h5>Educação Ambiental</h5>
+<p class="text-muted">
+Conscientização da comunidade.
+</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm border-0 h-100">
+<img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+<div class="card-body">
+<h5>Natureza</h5>
+<p class="text-muted">
+Preservação de áreas verdes.
+</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm border-0 h-100">
+<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+<div class="card-body">
+<h5>Terrenos Limpos</h5>
+<p class="text-muted">
+Mais saúde para toda população.
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section id="contato" class="py-5 bg-light">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-success mb-3">
+Fale Conosco
+</span>
+
+<h2 class="fw-bold">
+Entre em Contato
+</h2>
+
+<p class="text-muted">
+Sugestões, denúncias e informações sobre terrenos abandonados.
+</p>
+
+</div>
+
+<div class="row justify-content-center">
+
+<div class="col-lg-8">
+
+<form class="card shadow border-0">
+
+<div class="card-body p-4">
+
+<div class="mb-3">
+
+<label class="form-label">
+Nome
+</label>
+
+<input
+type="text"
+class="form-control"
+placeholder="Seu nome">
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+E-mail
+</label>
+
+<input
+type="email"
+class="form-control"
+placeholder="seu@email.com">
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+Assunto
+</label>
+
+<input
+type="text"
+class="form-control"
+placeholder="Digite o assunto">
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+Mensagem
+</label>
+
+<textarea
+class="form-control"
+rows="6"
+placeholder="Digite sua mensagem"></textarea>
+
+</div>
+
+<div class="text-center">
+
+<button
+class="btn btn-success btn-lg px-5"
+type="submit">
+
+Enviar Mensagem
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="bg-dark text-white py-5">
+
+<div class="container text-center">
+
+<h3 class="fw-bold">
+
+🌿 Projeto Quintal Vivo
+
+</h3>
+
+<p class="mt-3">
+
+Educação Ambiental • Saúde Pública • Preservação da Natureza
+
+</p>
+
+<div class="mt-4">
+
+<a href="#" class="text-white me-3">
+<i class="bi bi-facebook fs-4"></i>
+</a>
+
+<a href="#" class="text-white me-3">
+<i class="bi bi-instagram fs-4"></i>
+</a>
+
+<a href="#" class="text-white">
+<i class="bi bi-envelope-fill fs-4"></i>
+</a>
+
+</div>
+
+<hr class="my-4">
+
+<p class="mb-0">
+
+© 2026 Projeto Quintal Vivo.
+Todos os direitos reservados.
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+duration:900,
+once:true
+
+});
+
+</script>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
+
