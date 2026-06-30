@@ -1,340 +1,342 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Quintal Vivo GO: limpeza de lotes e quintais, prevenção contra dengue, cuidado ambiental e conscientização para Paraúna, Goiânia, Goiás e Centro-Oeste.">
-  <meta name="theme-color" content="#14532d">
-  <meta name="robots" content="index,follow">
-
-  <title>Quintal Vivo GO | Limpeza de Lotes, Saúde e Meio Ambiente</title>
-  <meta property="og:title" content="Quintal Vivo GO">
-  <meta property="og:description" content="Limpeza, saúde pública e conscientização ambiental em Paraúna/GO e região.">
+  <title>Quintal Vivo GO | Limpeza, saúde, natureza e conscientização em Paraúna-GO</title>
+  <meta name="description" content="Projeto Quintal Vivo GO: limpeza de lotes e quintais, alerta de lote sujo, conscientização contra dengue, cuidado com pets, meio ambiente e Paraúna-GO.">
+  <meta name="theme-color" content="#0b5d35">
+  <meta property="og:title" content="Projeto Quintal Vivo GO">
+  <meta property="og:description" content="Transforma, educa e protege: serviço de limpeza e portal de conscientização ambiental para Paraúna-GO e região.">
   <meta property="og:image" content="/assets/img/og-quintal-vivo.png">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="pt_BR">
-
-  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="manifest.json">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="/assets/icons/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body id="inicio">
+<body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-navbar" aria-label="Menu principal">
-    <div class="container">
-      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio" aria-label="Voltar para o início">
-        <img src="assets/icons/icon-192.png" alt="" class="brand-icon" width="42" height="42">
-        <span>Quintal Vivo GO</span>
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
-          <li class="nav-item"><a class="nav-link" href="#consciencia">Conscientização</a></li>
-          <li class="nav-item"><a class="nav-link" href="#fontes">Fontes</a></li>
-          <li class="nav-item"><a class="nav-link" href="#regiao">Região</a></li>
-          <li class="nav-item"><a class="nav-link btn-nav" href="/whatsapp">WhatsApp</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <div class="container hero-grid" data-aos="fade-up">
-      <div class="hero-copy">
-        <span class="badge rounded-pill hero-badge">Paraúna • Goiás • Centro-Oeste</span>
-        <img src="assets/img/logo-quintal-vivo.svg" alt="Quintal Vivo GO" class="hero-logo">
-        <h1>Limpeza de lote também é cuidado com a saúde e com o meio ambiente.</h1>
-        <p class="hero-subtitle">O Quintal Vivo GO une serviço de limpeza, prevenção contra dengue, descarte consciente e educação ambiental para transformar áreas abandonadas em espaços mais seguros.</p>
-        <div class="hero-actions">
-          <a href="/whatsapp" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> Conversar no WhatsApp</a>
-          <a href="#consciencia" class="btn btn-outline-light btn-lg">Entender os riscos</a>
-        </div>
-        <p class="hero-note">Atendimento pelo WhatsApp: <strong>(64) 99907-5881</strong></p>
-      </div>
-      <div class="hero-card" aria-label="Resumo do projeto">
-        <img src="assets/img/comparativo-lote.svg" alt="Comparação entre lote abandonado e lote limpo">
-      </div>
-    </div>
+  <header class="topbar" id="topo">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+      <img src="/assets/img/logo-quintal-vivo.svg" alt="Logo Quintal Vivo GO" width="46" height="46">
+      <span>
+        <strong>Quintal Vivo GO</strong>
+        <small>Paraúna • Goiás</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="menu" aria-label="Menu principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#alertar">Alertar lote</a>
+      <a href="#conscientizacao">Riscos</a>
+      <a href="#parauna">Paraúna</a>
+      <a href="#biblioteca">Biblioteca</a>
+      <a href="#fontes">Fontes</a>
+      <a href="#contato">Contato</a>
+      <a class="nav-pill" href="/instagram" target="_blank" rel="noopener">Instagram</a>
+    </nav>
   </header>
 
+  <div class="reader-tools" aria-label="Ferramentas de leitura">
+    <button type="button" id="themeToggle" aria-label="Alternar modo escuro">🌙 Modo escuro</button>
+    <button type="button" id="fontMinus" aria-label="Reduzir texto">A−</button>
+    <button type="button" id="fontPlus" aria-label="Aumentar texto">A+</button>
+  </div>
+
   <main id="conteudo">
-    <section class="section section-light" id="servicos">
-      <div class="container">
-        <div class="section-heading text-center" data-aos="fade-up">
-          <span class="eyebrow">Serviço com propósito</span>
-          <h2>O que o Quintal Vivo GO faz</h2>
-          <p>O serviço resolve o problema visível do mato e do lixo, mas também ajuda a reduzir riscos para a vizinhança.</p>
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Limpeza • Saúde • Natureza • Paraúna-GO</span>
+          <h1>Projeto Quintal Vivo GO</h1>
+          <p class="hero-lead">Transforma, educa e protege: limpeza de terrenos, orientação contra dengue, cuidado com pets e valorização da cidade.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/whatsapp">Solicitar orçamento</a>
+            <a class="btn btn-outline" href="#alertar">Alertar lote sujo</a>
+          </div>
+          <p class="microcopy">Atendimento em Paraúna-GO e região. Envie endereço aproximado, fotos e descrição do local.</p>
         </div>
-
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-            <article class="service-card h-100">
-              <i class="bi bi-tree-fill service-icon text-success" aria-hidden="true"></i>
-              <h3>Limpeza de terrenos</h3>
-              <p>Roçagem, retirada visual de excesso de mato, folhas, galhos e organização inicial da área.</p>
-            </article>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <article class="service-card h-100">
-              <i class="bi bi-bug-fill service-icon text-danger" aria-hidden="true"></i>
-              <h3>Prevenção contra dengue</h3>
-              <p>Orientação para eliminar recipientes que acumulam água e pontos que favorecem o Aedes aegypti.</p>
-            </article>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-            <article class="service-card h-100">
-              <i class="bi bi-recycle service-icon text-primary" aria-hidden="true"></i>
-              <h3>Descarte consciente</h3>
-              <p>Separação do que pode ser destinado corretamente, evitando que lixo vire foco de doença e poluição.</p>
-            </article>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-            <article class="service-card h-100">
-              <i class="bi bi-megaphone-fill service-icon text-warning" aria-hidden="true"></i>
-              <h3>Conscientização</h3>
-              <p>Informação clara para o morador entender por que cuidar do lote é proteger a casa, a rua e a cidade.</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section risk-section" id="consciencia">
-      <div class="container">
-        <div class="section-heading text-center text-white" data-aos="fade-up">
-          <span class="eyebrow eyebrow-light">O que cada ação gera</span>
-          <h2>Quando um terreno fica abandonado, o problema não fica parado</h2>
-          <p>O mato alto, o entulho e o lixo acumulado criam uma cadeia de consequências para a saúde, a segurança e a natureza.</p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-lg-6" data-aos="fade-up">
-            <article class="info-panel h-100">
-              <img src="assets/img/foco-dengue.svg" alt="Ilustração de mosquito e água parada" class="panel-illustration">
-              <h3>Água parada vira criadouro</h3>
-              <p>Garrafas, pneus, latas, baldes, plásticos e qualquer recipiente esquecido no lote podem acumular água. A prevenção começa removendo o que segura água e mantendo a área vistoriada.</p>
-              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" target="_blank" rel="noopener" class="source-link">Ler orientação do Ministério da Saúde <i class="bi bi-box-arrow-up-right"></i></a>
-            </article>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <article class="info-panel h-100">
-              <img src="assets/img/residuos-ambiente.svg" alt="Ilustração sobre resíduos e meio ambiente" class="panel-illustration">
-              <h3>Lixo irregular contamina e atrai vetores</h3>
-              <p>Resíduos sem manejo correto podem degradar solo, lençol freático e cursos d’água, além de favorecer vetores de doenças. Limpar é só uma parte: dar destino correto ao resíduo é o passo responsável.</p>
-              <a href="https://goias.gov.br/meioambiente/residuos-solidos/" target="_blank" rel="noopener" class="source-link">Ver orientação da Semad Goiás <i class="bi bi-box-arrow-up-right"></i></a>
-            </article>
-          </div>
-        </div>
-
-        <div class="cause-grid mt-4" data-aos="fade-up">
-          <article>
-            <strong>Mato alto</strong>
-            <span>pode esconder lixo, animais peçonhentos e dificultar a fiscalização visual do terreno.</span>
-          </article>
-          <article>
-            <strong>Entulho</strong>
-            <span>pode acumular água, virar abrigo de vetores e passar sensação de abandono.</span>
-          </article>
-          <article>
-            <strong>Lixo doméstico</strong>
-            <span>pode contaminar o ambiente e atrair insetos, roedores e mau cheiro.</span>
-          </article>
-          <article>
-            <strong>Falta de cuidado</strong>
-            <span>pode gerar reclamações, fiscalização, multas e risco coletivo para a vizinhança.</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-light" id="fontes">
-      <div class="container">
-        <div class="section-heading text-center" data-aos="fade-up">
-          <span class="eyebrow">Fontes confiáveis</span>
-          <h2>Informação real para conscientizar</h2>
-          <p>Esta página direciona o visitante para fontes oficiais e reportagens reais sobre dengue, resíduos, limpeza urbana e riscos de terrenos abandonados.</p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-md-6 col-xl-4" data-aos="fade-up">
-            <article class="source-card h-100 official">
-              <span class="tag">Governo Federal</span>
-              <h3>Ministério da Saúde: Dengue</h3>
-              <p>Explica sintomas, prevenção e cuidados contra a dengue, incluindo remoção de recipientes que podem virar criadouros.</p>
-              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" target="_blank" rel="noopener">Abrir fonte oficial</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="50">
-            <article class="source-card h-100 official">
-              <span class="tag">Governo Federal</span>
-              <h3>Aedes aegypti</h3>
-              <p>Informações oficiais sobre o mosquito transmissor da dengue, zika e chikungunya.</p>
-              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/aedes-aegypti" target="_blank" rel="noopener">Abrir fonte oficial</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
-            <article class="source-card h-100 official">
-              <span class="tag">Goiás</span>
-              <h3>Painel de Dengue da SES-GO</h3>
-              <p>Painel público com indicadores da dengue em Goiás, útil para acompanhar o cenário estadual e regional.</p>
-              <a href="https://indicadores.saude.go.gov.br/public/dengue.html" target="_blank" rel="noopener">Abrir indicadores</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4" data-aos="fade-up">
-            <article class="source-card h-100 official">
-              <span class="tag">Meio ambiente</span>
-              <h3>Semad Goiás: resíduos sólidos</h3>
-              <p>Mostra como resíduos mal gerenciados causam danos ambientais e problemas de saúde pública.</p>
-              <a href="https://goias.gov.br/meioambiente/residuos-solidos/" target="_blank" rel="noopener">Abrir Semad Goiás</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="50">
-            <article class="source-card h-100 official">
-              <span class="tag">Paraúna</span>
-              <h3>Prefeitura de Paraúna</h3>
-              <p>Canal oficial municipal para acompanhar serviços, comunicados e contatos públicos da cidade.</p>
-              <a href="https://www.parauna.go.gov.br/" target="_blank" rel="noopener">Abrir site da prefeitura</a>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
-            <article class="source-card h-100 official">
-              <span class="tag">Goiânia</span>
-              <h3>Limpeza de lotes e fiscalização</h3>
-              <p>Conteúdo público sobre regras e multas relacionadas a lotes baldios e focos do mosquito em Goiânia.</p>
-              <a href="https://www.goiania.go.leg.br/sala-de-imprensa/agencia-camara-goiania/Agencia-Camara-Goiania_noticias/aprovadas-novas-regras-para-limpeza-de-lotes-baldios" target="_blank" rel="noopener">Abrir notícia oficial</a>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section video-section" id="videos">
-      <div class="container">
-        <div class="section-heading text-center" data-aos="fade-up">
-          <span class="eyebrow">Reportagens e alertas</span>
-          <h2>Vídeos para mostrar o problema na prática</h2>
-          <p>Os botões abaixo levam para reportagens reais. Elas ajudam o visitante a entender que lote sujo, água parada e lixo acumulado afetam toda a comunidade.</p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-md-4" data-aos="zoom-in">
-            <article class="video-card h-100">
-              <i class="bi bi-play-circle-fill"></i>
-              <h3>Água parada e risco de dengue</h3>
-              <p>Reportagem sobre entulhos e objetos nas ruas gerando criadouros do Aedes aegypti.</p>
-              <a href="https://globoplay.globo.com/v/4125277/" target="_blank" rel="noopener">Assistir reportagem</a>
-            </article>
-          </div>
-          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <article class="video-card h-100">
-              <i class="bi bi-play-circle-fill"></i>
-              <h3>Mato alto em bairro de Goiânia</h3>
-              <p>Exemplo de reclamação sobre mato alto e abandono em área urbana.</p>
-              <a href="https://globoplay.globo.com/v/10460609/" target="_blank" rel="noopener">Assistir reportagem</a>
-            </article>
-          </div>
-          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-            <article class="video-card h-100">
-              <i class="bi bi-play-circle-fill"></i>
-              <h3>Lixo acumulado vira foco</h3>
-              <p>Alerta sobre lixo acumulado se transformando em foco de dengue em Goiânia.</p>
-              <a href="https://globoplay.globo.com/v/4660924/" target="_blank" rel="noopener">Assistir reportagem</a>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section region-section" id="regiao">
-      <div class="container">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-6" data-aos="fade-right">
-            <span class="eyebrow">Foco regional</span>
-            <h2>Paraúna, Goiânia e Goiás: cuidado local com impacto coletivo</h2>
-            <p>O Centro-Oeste tem períodos de chuva que exigem atenção redobrada com áreas abertas. Em cidades como Paraúna, manter lotes e quintais limpos ajuda a proteger a rua, a vizinhança e os espaços naturais do Cerrado.</p>
-            <p>O objetivo do Quintal Vivo GO é criar uma ponte entre serviço prático e consciência: a limpeza remove o problema visível, e a informação ajuda a evitar que ele volte.</p>
-            <a href="/whatsapp" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> Chamar para orçamento</a>
-          </div>
-          <div class="col-lg-6" data-aos="fade-left">
-            <div class="checklist-card">
-              <h3>Checklist de cuidado do lote</h3>
-              <ul>
-                <li>Remover objetos que acumulam água.</li>
-                <li>Não jogar lixo ou entulho em terreno aberto.</li>
-                <li>Manter mato controlado para facilitar a vistoria.</li>
-                <li>Separar resíduos e buscar destinação correta.</li>
-                <li>Observar calhas, ralos, caixas, pneus e garrafas.</li>
-                <li>Conversar com vizinhos e incentivar cuidado coletivo.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contato">
-      <div class="container">
-        <div class="contact-card" data-aos="fade-up">
+        <aside class="hero-card" aria-label="Resumo do projeto">
+          <img src="/assets/img/logo-projeto-quintal-vivo-referencia.jpg" alt="Marca Projeto Quintal Vivo" loading="lazy">
           <div>
-            <span class="eyebrow">Atendimento rápido</span>
-            <h2>Quer limpar ou avaliar um lote?</h2>
-            <p>Envie uma mensagem no WhatsApp com o endereço aproximado, bairro, fotos do local e o tipo de serviço necessário. Isso ajuda a montar um orçamento mais certeiro.</p>
-            <a href="/whatsapp" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> Conversar no WhatsApp</a>
+            <strong>Quintal cuidado é proteção para a rua inteira.</strong>
+            <span>Menos criadouros, menos lixo, menos risco para crianças, idosos, vizinhos e animais.</span>
           </div>
-          <form name="contato-quintal-vivo" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="whatsapp-form" id="whatsappForm">
-            <input type="hidden" name="form-name" value="contato-quintal-vivo">
-            <p class="d-none"><label>Não preencher: <input name="bot-field"></label></p>
-            <div class="mb-3">
-              <label for="nome" class="form-label">Seu nome</label>
-              <input type="text" class="form-control" id="nome" name="nome" autocomplete="name" placeholder="Ex.: João" required>
-            </div>
-            <div class="mb-3">
-              <label for="cidade" class="form-label">Cidade ou bairro</label>
-              <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Ex.: Paraúna/GO" required>
-            </div>
-            <div class="mb-3">
-              <label for="servico" class="form-label">O que precisa?</label>
-              <textarea class="form-control" id="servico" name="servico" rows="4" placeholder="Descreva o lote, mato, lixo, entulho ou risco de dengue." required></textarea>
-            </div>
-            <button type="submit" class="btn btn-dark w-100"><i class="bi bi-send me-2"></i> Montar mensagem no WhatsApp</button>
-          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">O que fazemos</span>
+          <h2>Serviço prático para limpar, orientar e prevenir</h2>
+          <p>O trabalho começa na limpeza, mas o objetivo maior é reduzir riscos, melhorar a aparência da cidade e incentivar responsabilidade com o lote.</p>
         </div>
+        <div class="cards three">
+          <article class="card service-card">
+            <span class="icon-badge">🌿</span>
+            <h3>Limpeza de lotes e quintais</h3>
+            <p>Roçagem, retirada visual de pontos críticos, organização inicial e orientação sobre destino correto de resíduos.</p>
+          </article>
+          <article class="card service-card">
+            <span class="icon-badge">🦟</span>
+            <h3>Prevenção contra focos</h3>
+            <p>Identificação de objetos que acumulam água e explicação sobre o risco de criadouros do Aedes aegypti.</p>
+          </article>
+          <article class="card service-card">
+            <span class="icon-badge">📍</span>
+            <h3>Avaliação por localização</h3>
+            <p>O morador envia endereço, link do Maps e fotos para facilitar orçamento e diagnóstico do local.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alert-section" id="alertar">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow">Alerta comunitário</span>
+          <h2>Viu um lote sujo? Envie a localização.</h2>
+          <p>Essa área serve para mapear pontos com mato alto, lixo, entulho, água parada ou risco para a vizinhança. A informação ajuda a entender onde há demanda de limpeza e conscientização em Paraúna.</p>
+          <div class="info-list">
+            <div><strong>1.</strong> Informe bairro/endereço aproximado.</div>
+            <div><strong>2.</strong> Cole o link do Google Maps, se tiver.</div>
+            <div><strong>3.</strong> Descreva a situação e envie foto opcional.</div>
+          </div>
+          <div class="map-actions">
+            <a class="btn btn-primary" href="/maps" target="_blank" rel="noopener">Abrir Paraúna no Maps</a>
+            <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Para%C3%BAna%2C%20GO" target="_blank" rel="noopener">Pesquisar endereço</a>
+          </div>
+        </div>
+        <form class="card form-card" name="alerta-lote-sujo" method="POST" action="/obrigado.html" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" id="alertForm">
+          <input type="hidden" name="form-name" value="alerta-lote-sujo">
+          <p class="hidden"><label>Não preencha: <input name="bot-field"></label></p>
+          <h3>Enviar alerta</h3>
+          <label>Seu nome <input name="nome" id="alertNome" autocomplete="name" placeholder="Ex.: João"></label>
+          <label>WhatsApp <input name="telefone" id="alertTelefone" inputmode="tel" placeholder="Ex.: (64) 99900-0000"></label>
+          <label>Bairro ou setor <input name="bairro" id="alertBairro" placeholder="Ex.: Centro, Setor..." required></label>
+          <label>Endereço aproximado <input name="endereco" id="alertEndereco" placeholder="Rua, quadra, referência..." required></label>
+          <label>Link do Google Maps <input name="maps" id="alertMaps" placeholder="Cole o link do local, se tiver"></label>
+          <label>Tipo de problema
+            <select name="tipo" id="alertTipo">
+              <option>Mato alto</option>
+              <option>Lixo acumulado</option>
+              <option>Entulho</option>
+              <option>Água parada</option>
+              <option>Animais peçonhentos</option>
+              <option>Outro risco</option>
+            </select>
+          </label>
+          <label>Descreva a situação <textarea name="descricao" id="alertDescricao" rows="4" placeholder="Explique o que está acontecendo no local."></textarea></label>
+          <label>Foto opcional <input name="foto" type="file" accept="image/*"></label>
+          <button class="btn btn-primary full" type="submit">Enviar pelo formulário</button>
+          <button class="btn btn-whatsapp full" type="button" id="alertWhatsBtn">Enviar resumo no WhatsApp</button>
+          <p class="form-note">Fotos podem ser anexadas no formulário. No WhatsApp, envie a imagem depois que a conversa abrir.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="conscientizacao">
+      <div class="container">
+        <div class="section-heading light">
+          <span class="eyebrow">O que cada ação gera</span>
+          <h2>Quando um lote fica abandonado, o problema não fica parado</h2>
+          <p>Mato alto, lixo, água parada e entulho criam uma cadeia de consequências para saúde, segurança, vizinhos, pets e natureza.</p>
+        </div>
+        <div class="risk-grid">
+          <article class="risk-card">
+            <img src="/assets/img/ilustra-agua-parada.svg" alt="Ilustração de recipiente com água parada">
+            <h3>Água parada vira criadouro</h3>
+            <p>Garrafas, pneus, latas, baldes, calhas e plásticos podem acumular água. A prevenção começa removendo o que segura água e mantendo a área vistoriada.</p>
+            <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" target="_blank" rel="noopener">Orientação do Ministério da Saúde ↗</a>
+          </article>
+          <article class="risk-card">
+            <img src="/assets/img/ilustra-lixo-roedores.svg" alt="Ilustração de resíduos atraindo roedores">
+            <h3>Lixo atrai roedores e vetores</h3>
+            <p>Resíduos mal acondicionados favorecem roedores e mau cheiro. O destino adequado do lixo é parte da prevenção de riscos sanitários.</p>
+            <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose/prevencao" target="_blank" rel="noopener">Prevenção de leptospirose ↗</a>
+          </article>
+          <article class="risk-card">
+            <img src="/assets/img/ilustra-pet-risco.svg" alt="Ilustração de pet protegido em ambiente limpo">
+            <h3>Pets também ficam expostos</h3>
+            <p>Entulho e mato alto podem esconder escorpiões, insetos e restos que machucam cães e gatos. Limpar é uma forma de proteger quem anda perto do chão.</p>
+            <a href="https://bvsms.saude.gov.br/bvs/publicacoes/manual_controle_escorpioes.pdf" target="_blank" rel="noopener">Manual de controle de escorpiões ↗</a>
+          </article>
+          <article class="risk-card">
+            <img src="/assets/img/ilustra-lote-cuidado.svg" alt="Ilustração de lote cuidado e limpo">
+            <h3>Lote limpo valoriza a rua</h3>
+            <p>Área cuidada melhora a aparência, reduz sensação de abandono e incentiva outros moradores a manterem seus espaços em ordem.</p>
+            <a href="https://goias.gov.br/meioambiente/residuos-solidos/" target="_blank" rel="noopener">Resíduos sólidos — Semad Goiás ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pets-section" id="pets">
+      <div class="container split-grid reverse">
+        <div class="pet-panel">
+          <img src="/assets/img/ilustra-pets-quintal.svg" alt="Ilustração de cão e gato em quintal cuidado" loading="lazy">
+        </div>
+        <div>
+          <span class="eyebrow">Apelo responsável</span>
+          <h2>Seu pet também sente o abandono do lote</h2>
+          <p>Um terreno sujo não ameaça apenas quem mora ao lado. Cachorros e gatos podem entrar em contato com lixo, restos cortantes, insetos, roedores e animais peçonhentos.</p>
+          <div class="mini-cards">
+            <div><strong>Ratos</strong><span>podem estar ligados a riscos sanitários e contaminação.</span></div>
+            <div><strong>Escorpiões</strong><span>podem encontrar abrigo em entulho, frestas e materiais parados.</span></div>
+            <div><strong>Água parada</strong><span>favorece mosquito transmissor de dengue, zika e chikungunya.</span></div>
+          </div>
+          <a class="btn btn-primary" href="#contato">Quero limpar meu lote</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section parauna" id="parauna">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Cidade e pertencimento</span>
+          <h2>Paraúna merece cuidado</h2>
+          <p>Uma cidade conhecida por belezas naturais, turismo e identidade do Cerrado também precisa de quintais, ruas e terrenos bem cuidados.</p>
+        </div>
+        <div class="tourism-grid">
+          <article class="tour-card featured">
+            <img src="/assets/img/ilustra-parauna.svg" alt="Ilustração de Paraúna, Cerrado e formações naturais">
+            <div>
+              <h3>Natureza, história e turismo local</h3>
+              <p>O inventário turístico de Paraúna destaca atrativos naturais e culturais, como Pedra Cálice, Lago de Paraúna, Vinícola Serra das Galés e Cristo de Paraúna.</p>
+              <a href="https://www.parauna.go.gov.br/turista" target="_blank" rel="noopener">Ver pontos turísticos oficiais ↗</a>
+            </div>
+          </article>
+          <article class="tour-card"><h3>Pedra Cálice</h3><p>Cartão-postal natural associado à Serra das Galés e à paisagem do Cerrado.</p></article>
+          <article class="tour-card"><h3>Lago Municipal</h3><p>Área de convivência e lazer que reforça a relação da cidade com espaços limpos e bem cuidados.</p></article>
+          <article class="tour-card"><h3>Vinícola Serra das Galés</h3><p>Referência turística e produtiva em Paraúna, ligada à força do Cerrado goiano.</p></article>
+          <article class="tour-card"><h3>Cristo de Paraúna</h3><p>Ponto simbólico da paisagem local e da identidade da cidade.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section biblioteca" id="biblioteca">
+      <div class="container">
+        <div class="library-head">
+          <div>
+            <span class="eyebrow">Biblioteca Verde</span>
+            <h2>Livros, guias e materiais para educar, organizar e proteger</h2>
+            <p>Uma seleção ampla de livros reais e materiais oficiais para quem quer entender limpeza, saúde pública, meio ambiente, cidade, pets e hábitos de cuidado.</p>
+          </div>
+          <div class="library-search">
+            <label for="bookSearch">Buscar na biblioteca</label>
+            <input id="bookSearch" type="search" placeholder="Buscar livro, autor, tema...">
+          </div>
+        </div>
+        <div class="filter-row" id="bookFilters" aria-label="Filtros da biblioteca">
+          <button class="filter active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="gratis">Gratuitos</button>
+          <button class="filter" data-filter="oficial">Oficiais</button>
+          <button class="filter" data-filter="meio-ambiente">Meio ambiente</button>
+          <button class="filter" data-filter="dengue">Dengue</button>
+          <button class="filter" data-filter="pets">Pets e vetores</button>
+          <button class="filter" data-filter="cidade">Cidade</button>
+          <button class="filter" data-filter="organizacao">Organização</button>
+        </div>
+        <div class="book-grid" id="bookGrid"></div>
+        <p class="library-note">Os botões levam para páginas externas oficiais, editoras, bibliotecas digitais ou busca do livro. Links comerciais podem ser adaptados futuramente para programas de parceiros.</p>
+      </div>
+    </section>
+
+    <section class="section videos" id="videos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Vídeos educativos</span>
+          <h2>Conteúdos para mostrar o risco de forma simples</h2>
+          <p>Cards de vídeo e reportagem aberta para reforçar a prevenção, sem depender de páginas que travam ou pedem assinatura.</p>
+        </div>
+        <div class="cards three">
+          <article class="video-card card">
+            <span>▶</span>
+            <h3>10 minutos contra a dengue</h3>
+            <p>Série da Fiocruz mostra que poucos minutos por semana ajudam a encontrar e eliminar criadouros.</p>
+            <a href="https://agencia.fiocruz.br/aedes-aegypti-serie-de-videos-alerta-para-importancia-da-prevencao" target="_blank" rel="noopener">Assistir/ler na Fiocruz ↗</a>
+          </article>
+          <article class="video-card card">
+            <span>▶</span>
+            <h3>Combate ao mosquito</h3>
+            <p>Campanha oficial do Ministério da Saúde explica arboviroses urbanas e reforça a eliminação de focos.</p>
+            <a href="https://www.gov.br/saude/pt-br/campanhas-da-saude/2023/combate-ao-mosquito" target="_blank" rel="noopener">Ver campanha oficial ↗</a>
+          </article>
+          <article class="video-card card">
+            <span>🔎</span>
+            <h3>Reportagens abertas</h3>
+            <p>Atalho para buscar notícias sobre lotes baldios, mato alto, entulho e dengue em Goiás.</p>
+            <a href="https://g1.globo.com/busca/?q=lote%20baldio%20dengue%20goi%C3%A1s%20mato%20alto" target="_blank" rel="noopener">Buscar no G1 ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fontes" id="fontes">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Credibilidade</span>
+          <h2>Fontes oficiais, órgãos e canais úteis</h2>
+          <p>O Quintal Vivo GO é uma iniciativa independente. Para denúncias, saúde pública, fiscalização ou medidas oficiais, procure também os órgãos competentes.</p>
+        </div>
+        <div class="source-grid">
+          <article class="source-card"><h3>Secretaria de Saúde de Paraúna</h3><p>Telefone: <a href="tel:+556435562183">64 3556-2183</a><br>Email: <a href="mailto:saude@parauna.go.gov.br">saude@parauna.go.gov.br</a></p><a href="https://www.parauna.go.gov.br/estrutura_organizacional/?id=63" target="_blank" rel="noopener">Página oficial ↗</a></article>
+          <article class="source-card"><h3>Hospital Municipal</h3><p>Telefone: <a href="tel:+556499973487">64 9997-3487</a> / <a href="tel:192">192</a><br>Atendimento 24h.</p><a href="https://www.parauna.go.gov.br/estrutura_organizacional?id=64" target="_blank" rel="noopener">Página oficial ↗</a></article>
+          <article class="source-card"><h3>Prefeitura de Paraúna</h3><p>Estrutura organizacional, turismo, notícias e canais públicos municipais.</p><a href="https://www.parauna.go.gov.br/estrutura_organizacional" target="_blank" rel="noopener">Acessar prefeitura ↗</a></article>
+          <article class="source-card"><h3>SES-GO</h3><p>Boletins epidemiológicos e materiais de acompanhamento de dengue e arboviroses em Goiás.</p><a href="https://goias.gov.br/saude/boletins-epidemiologicos/" target="_blank" rel="noopener">Ver boletins ↗</a></article>
+          <article class="source-card"><h3>Ministério da Saúde</h3><p>Orientações oficiais sobre dengue, Aedes aegypti, leptospirose e prevenção.</p><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue" target="_blank" rel="noopener">Ver dengue ↗</a></article>
+          <article class="source-card"><h3>Semad Goiás</h3><p>Informações sobre resíduos sólidos, coleta seletiva e educação ambiental.</p><a href="https://goias.gov.br/meioambiente/residuos-solidos/" target="_blank" rel="noopener">Ver resíduos ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow">Atendimento rápido</span>
+          <h2>Quer limpar ou avaliar um lote?</h2>
+          <p>Envie nome, bairro, endereço aproximado, fotos do local e tipo de serviço necessário. Isso ajuda a montar um orçamento mais certeiro.</p>
+          <div class="contact-actions">
+            <a class="btn btn-whatsapp" href="/whatsapp">Conversar no WhatsApp</a>
+            <a class="btn btn-outline" href="/instagram" target="_blank" rel="noopener">Seguir no Instagram</a>
+          </div>
+        </div>
+        <form class="card form-card" name="orcamento-quintal-vivo" method="POST" action="/obrigado.html" data-netlify="true" data-netlify-honeypot="bot-field" id="quoteForm">
+          <input type="hidden" name="form-name" value="orcamento-quintal-vivo">
+          <p class="hidden"><label>Não preencha: <input name="bot-field"></label></p>
+          <label>Seu nome <input name="nome" id="quoteNome" placeholder="Ex.: João" autocomplete="name"></label>
+          <label>Cidade ou bairro <input name="local" id="quoteLocal" placeholder="Ex.: Paraúna/GO"></label>
+          <label>O que precisa? <textarea name="mensagem" id="quoteMsg" rows="4" placeholder="Descreva o lote, mato, lixo, entulho ou risco de dengue."></textarea></label>
+          <button class="btn btn-primary full" type="submit">Enviar formulário</button>
+          <button class="btn btn-whatsapp full" type="button" id="quoteWhatsBtn">Montar mensagem no WhatsApp</button>
+        </form>
       </div>
     </section>
   </main>
 
-  <a class="whatsapp-float" href="/whatsapp" aria-label="Conversar no WhatsApp">
-    <i class="bi bi-whatsapp"></i>
-  </a>
+  <a class="whatsapp-float" href="/whatsapp" aria-label="Chamar no WhatsApp">☘</a>
 
-  <footer class="site-footer">
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-      <div class="d-flex align-items-center gap-2">
-        <img src="assets/icons/icon-192.png" alt="" width="36" height="36" class="footer-icon">
-        <span>© <span id="ano"></span> Quintal Vivo GO</span>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Quintal Vivo GO</strong>
+        <p>Transforma • Educa • Protege — Paraúna • Goiás</p>
       </div>
-      <span>Limpeza, saúde pública e cuidado ambiental.</span>
+      <div>
+        <a href="/whatsapp">WhatsApp</a>
+        <a href="/instagram" target="_blank" rel="noopener">Instagram</a>
+        <a href="/maps" target="_blank" rel="noopener">Google Maps</a>
+      </div>
     </div>
+    <p class="copy">© <span id="year"></span> Quintal Vivo GO. Iniciativa independente de serviço, educação ambiental e conscientização local.</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>

@@ -1,12 +1,2 @@
-Quintal Vivo GO - v1.2
-
-Atualização focada em identidade visual, WhatsApp e conscientização ambiental.
-
-Novidades:
-- Logo oficial em SVG e PNG.
-- Favicon, ícones PWA e imagem social og:image.
-- Redirecionamento /whatsapp e /zap para o número (64) 99907-5881.
-- Conteúdo ampliado sobre dengue, resíduos, meio ambiente e cuidado coletivo.
-- Cards com fontes oficiais do Ministério da Saúde, SES-GO, Semad Goiás, Prefeitura de Paraúna e Câmara de Goiânia.
-- Cards de reportagens reais com links externos.
-- Formulário que monta mensagem automática para WhatsApp.
+Projeto Quintal Vivo GO — v1.3
+Atualização: biblioteca verde ampliada, alerta de lote sujo, Instagram, mapa de Paraúna, turismo local, seção de pets, vídeos educativos, fontes oficiais, modo escuro e ajustes visuais.

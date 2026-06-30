@@ -1,0 +1,18 @@
+VERSÃO 1.3 — Quintal Vivo GO
+
+Implementações principais:
+- Seção Alertar lote sujo com formulário Netlify, upload opcional e envio de resumo para WhatsApp.
+- Redirecionadores /whatsapp, /zap, /instagram e /maps via netlify.toml.
+- Instagram preparado para @quintalvivogo.
+- Modo escuro, aumentar texto e reduzir texto.
+- Seção de pets e riscos: roedores, escorpiões, água parada, dengue e lote sujo.
+- Seção Paraúna merece cuidado, com turismo e identidade local.
+- Biblioteca Verde ampliada com livros reais, materiais oficiais e busca/filtros.
+- Seção de vídeos educativos com fontes abertas/oficiais.
+- Fontes oficiais e canais úteis de Paraúna, SES-GO, Ministério da Saúde e Semad Goiás.
+- Ilustrações SVG próprias e leves, sem copiar imagens de portais de notícia.
+
+Observações:
+- O Instagram está como https://www.instagram.com/quintalvivogo/. Troque em assets/js/app.js e netlify.toml se criar outro usuário.
+- Os links comerciais da Biblioteca Verde ainda não têm ID de afiliado. Quando o cadastro nos programas de afiliados estiver pronto, substituir pelos links rastreáveis.
+- Fotos reais de lotes, pontos turísticos ou serviços devem ser autorais, autorizadas ou de fonte com licença clara.
